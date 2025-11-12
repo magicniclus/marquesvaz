@@ -19,7 +19,7 @@ const fibreParis15Config = {
   
   // Contenu principal
   sectorName: "Paris 15ème",
-  heroImage: "/macon.png",
+  heroImage: "/prestation-1.png",
   heroTitle: "Entreprise travaux fibre optique à Paris 15ème",
   heroSubtitle: "Spécialiste fibre optique Paris 15ème. Débouchage fourreaux, détection points de blocage, raccordements complexes et urgences fibre avec expertise technique.",
   

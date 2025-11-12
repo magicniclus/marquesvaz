@@ -17,7 +17,7 @@ const fibreEssonne91Config = {
   ],
   
   sectorName: "Essonne (91)",
-  heroImage: "/assainissement.png",
+  heroImage: "/prestation-3.png",
   heroTitle: "Entreprise travaux fibre optique en Essonne",
   heroSubtitle: "Spécialiste fibre optique Essonne 91. Solutions techniques complètes pour débouchage fourreaux, détection blocages et raccordements sur tout le département.",
   

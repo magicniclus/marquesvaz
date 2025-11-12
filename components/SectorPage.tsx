@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { submitFormToFirebase, validateFormData, FormData } from '@/lib/firebase-service';
 import FormLoader from '@/components/FormLoader';
+import Breadcrumb from '@/components/Breadcrumb';
 import { useRouter } from 'next/navigation';
 
 interface SectorPageProps {
@@ -185,13 +186,14 @@ export default function SectorPage({
             transition={{ duration: 0.8 }}
           >
             {/* Breadcrumb */}
-            <nav className="flex items-center space-x-2 text-sm mb-6 opacity-80">
-              <span>Accueil</span>
-              <ChevronRight className="h-4 w-4" />
-              <span>Secteurs</span>
-              <ChevronRight className="h-4 w-4" />
-              <span className="text-orange-300">{location}</span>
-            </nav>
+            <Breadcrumb 
+              items={[
+                { label: 'Accueil', href: '/' },
+                { label: 'Secteurs', href: '/secteur' },
+                { label: location, current: true }
+              ]}
+              className="mb-6 opacity-90"
+            />
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               {heroTitle}

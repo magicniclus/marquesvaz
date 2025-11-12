@@ -17,7 +17,7 @@ const fibreNord59Config = {
   ],
   
   sectorName: "Nord (59)",
-  heroImage: "/extension.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Entreprise travaux fibre optique dans le Nord",
   heroSubtitle: "Spécialiste fibre optique Nord 59. Interventions techniques pour débouchage fourreaux, détection blocages et raccordements complexes dans tout le département.",
   

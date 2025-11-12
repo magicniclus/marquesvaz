@@ -9,7 +9,7 @@ const fourreauBoucheConfig = {
   
   // Contenu principal
   serviceName: "Fourreau Bouché",
-  heroImage: "/joint-de-pierre.png",
+  heroImage: "/prestation-2.png",
   heroTitle: "Débouchage de Fourreaux Télécommunications",
   heroSubtitle: "Spécialiste du débouchage de fourreaux et gaines télécommunications. Techniques professionnelles pour libérer les conduits obstrués et permettre le passage de la fibre optique.",
   

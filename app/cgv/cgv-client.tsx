@@ -52,10 +52,10 @@ export default function CGVClient() {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre 
-                  BATI FRANCE, société par actions simplifiée, immatriculée au RCS de Paris 
-                  sous le numéro SIRET 82426324600013, dont le siège social est situé 17 avenue Gambetta, 75020 Paris, 
-                  ci-après dénommée « BATI FRANCE » ou « la Société », et toute personne physique ou morale, 
-                  ci-après dénommée « le Client », souhaitant bénéficier des services de rénovation proposés.
+                  RAFCOM, SASU (Société par Actions Simplifiée Unipersonnelle), immatriculée au RCS de Paris 
+                  sous le numéro SIRET 991 943 010 00017, dont le siège social est situé 200 rue de la Croix Nivert, 75015 Paris, 
+                  ci-après dénommée « RAFCOM » ou « la Société », et toute personne physique ou morale, 
+                  ci-après dénommée « le Client », souhaitant bénéficier des services de travaux fibre optique proposés.
                 </p>
                 <p>
                   L'acceptation des présentes CGV est matérialisée par la validation de toute commande ou demande de service. 
@@ -69,17 +69,17 @@ export default function CGVClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Article 1 - Objet</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  BATI FRANCE est une entreprise spécialisée dans les travaux de rénovation intérieure et extérieure. 
+                  RAFCOM est une entreprise spécialisée dans les travaux de fibre optique et télécommunications. 
                   La Société propose les services suivants :
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Peinture intérieure et extérieure</li>
-                  <li>Ravalement de façades</li>
-                  <li>Travaux d'électricité et de plomberie</li>
-                  <li>Rénovation globale et transformation d'espaces</li>
-                  <li>Nettoyage post-travaux</li>
+                  <li>Installation et maintenance de réseaux fibre optique</li>
+                  <li>Débouchage de fourreaux télécommunications</li>
+                  <li>Détection et localisation de points de blocage</li>
+                  <li>Raccordements fibre optique complexes</li>
+                  <li>Interventions d'urgence fibre 24h/24</li>
                   <li>Établissement de devis gratuits et personnalisés</li>
-                  <li>Garanties décennale et responsabilité civile</li>
+                  <li>Expertise technique spécialisée en télécommunications</li>
                 </ul>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function CGVClient() {
                 </p>
                 <p>
                   Le devis est valable 30 jours à compter de sa date d'émission. Passé ce délai, 
-                  BATI FRANCE se réserve le droit de modifier les prix proposés.
+                  RAFCOM se réserve le droit de modifier les prix proposés.
                 </p>
                 <p>
                   L'acceptation du devis par le Client, matérialisée par sa signature et le versement de l'acompte éventuel, 

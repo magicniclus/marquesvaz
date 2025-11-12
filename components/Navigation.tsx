@@ -110,24 +110,20 @@ export default function Navigation() {
             transition={{ duration: 0.7, delay: 0.2 }}
             whileHover={{ scale: 1.02 }}
           >
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href="/" className="flex items-center">
               <motion.div 
-                className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden"
+                className="w-20 h-20 rounded-xl flex items-center justify-center overflow-hidden"
                 whileHover={{ rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image 
                   src="/logo.png" 
-                  alt="Logo" 
-                  width={40} 
-                  height={40} 
+                  alt="Logo RAFCOM" 
+                  width={72} 
+                  height={72} 
                   className="object-contain"
                 />
               </motion.div>
-              <div className="flex flex-col">
-                <span className="text-xl font-bold text-gray-900">RAFCOM</span>
-                <span className="text-xs text-gray-600 font-medium">spécialiste fibre optique</span>
-              </div>
             </Link>
           </motion.div>
 
@@ -338,28 +334,20 @@ export default function Navigation() {
           <div className="flex flex-col h-full">
             {/* Header with close button */}
             <div className="flex justify-between items-center p-6 border-b">
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center">
                 <motion.div 
-                  className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg overflow-hidden"
+                  className="w-16 h-16 rounded-xl flex items-center justify-center shadow-lg overflow-hidden"
                   whileHover={{ rotate: 5 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
                     src="/logo.png" 
-                    alt="Logo" 
-                    width={40} 
-                    height={40} 
+                    alt="Logo RAFCOM" 
+                    width={56} 
+                    height={56} 
                     className="object-contain"
                   />
                 </motion.div>
-                <div className="flex flex-col">
-                  <span className="text-xl font-bold text-foreground">
-                    RAFCOM
-                  </span>
-                  <span className="text-xs text-gray-400 font-medium">
-                    spécialiste fibre optique
-                  </span>
-                </div>
               </div>
               <Button 
                 variant="ghost" 

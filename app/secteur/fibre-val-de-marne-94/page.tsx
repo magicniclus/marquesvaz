@@ -17,7 +17,7 @@ const fibreValDeMarne94Config = {
   ],
   
   sectorName: "Val-de-Marne (94)",
-  heroImage: "/macon.png",
+  heroImage: "/prestation-2.png",
   heroTitle: "Entreprise travaux fibre optique dans le Val-de-Marne",
   heroSubtitle: "Spécialiste fibre optique Val-de-Marne 94. Interventions techniques pour débouchage fourreaux, détection blocages et raccordements complexes dans tout le département.",
   

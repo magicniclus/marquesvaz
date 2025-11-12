@@ -17,7 +17,7 @@ const fibreSeineSaintDenis93Config = {
   ],
   
   sectorName: "Seine-Saint-Denis (93)",
-  heroImage: "/facade.png",
+  heroImage: "/prestation-2.png",
   heroTitle: "Entreprise travaux fibre optique en Seine-Saint-Denis",
   heroSubtitle: "Spécialiste fibre optique Seine-Saint-Denis 93. Solutions techniques complètes pour débouchage fourreaux, détection blocages et raccordements sur tout le département.",
   

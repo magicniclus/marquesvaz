@@ -19,7 +19,7 @@ const fibreChellesConfig = {
   ],
   
   sectorName: "Chelles",
-  heroImage: "/assainissement.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Entreprise travaux fibre optique à Chelles",
   heroSubtitle: "Spécialiste fibre optique Chelles Seine-et-Marne. Solutions techniques complètes pour débouchage fourreaux, détection blocages et raccordements dans cette ville en développement.",
   

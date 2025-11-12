@@ -9,7 +9,7 @@ const travauxFibreConfig = {
   
   // Contenu principal
   serviceName: "Travaux Fibre Optique",
-  heroImage: "/macon.png",
+  heroImage: "/prestation-1.png",
   heroTitle: "Travaux Fibre Optique Professionnels",
   heroSubtitle: "Installation, maintenance et réparation de réseaux fibre optique en Île-de-France. Expertise technique et intervention rapide pour particuliers et professionnels.",
   

@@ -9,7 +9,7 @@ const urgenceFibreConfig = {
   
   // Contenu principal
   serviceName: "Urgence Fibre",
-  heroImage: "/assainissement.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Service d'Urgence Fibre Optique 24h/24",
   heroSubtitle: "Intervention d'urgence fibre optique 24h/24 et 7j/7. Service réactif pour résoudre rapidement vos pannes et problèmes de connexion fibre en Île-de-France.",
   

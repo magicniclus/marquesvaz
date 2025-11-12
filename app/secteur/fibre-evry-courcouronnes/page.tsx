@@ -19,7 +19,7 @@ const fibreEvryCourcourronnesConfig = {
   ],
   
   sectorName: "Évry-Courcouronnes",
-  heroImage: "/joint-de-pierre.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Entreprise travaux fibre optique à Évry-Courcouronnes",
   heroSubtitle: "Spécialiste fibre optique Évry-Courcouronnes. Expertise technique pour débouchage fourreaux, détection blocages et raccordements dans cette ville nouvelle de l'Essonne.",
   

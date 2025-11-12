@@ -9,7 +9,7 @@ const detectionBlocageConfig = {
   
   // Contenu principal
   serviceName: "Détection de Point de Blocage",
-  heroImage: "/extension.png",
+  heroImage: "/prestation-3.png",
   heroTitle: "Détection et Localisation de Points de Blocage",
   heroSubtitle: "Diagnostic technique avancé pour détecter et localiser précisément les points de blocage dans les réseaux de télécommunications. Solutions professionnelles pour identifier les obstructions.",
   

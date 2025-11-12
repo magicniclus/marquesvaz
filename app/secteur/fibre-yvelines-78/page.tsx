@@ -17,7 +17,7 @@ const fibreYvelines78Config = {
   ],
   
   sectorName: "Yvelines (78)",
-  heroImage: "/facade.png",
+  heroImage: "/prestation-3.png",
   heroTitle: "Entreprise travaux fibre optique dans les Yvelines",
   heroSubtitle: "Spécialiste fibre optique Yvelines 78. Interventions techniques pour débouchage fourreaux, détection blocages et raccordements complexes dans tout le département.",
   

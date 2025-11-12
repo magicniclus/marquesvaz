@@ -17,7 +17,7 @@ const fibreLoiret45Config = {
   ],
   
   sectorName: "Loiret (45)",
-  heroImage: "/assainissement.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Entreprise travaux fibre optique dans le Loiret",
   heroSubtitle: "Spécialiste fibre optique Loiret 45. Solutions techniques complètes pour débouchage fourreaux, détection blocages et raccordements dans tout le département.",
   

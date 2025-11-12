@@ -25,7 +25,7 @@ export default function HomeClient() {
       title: "Travaux Fibre",
       subtitle: "Installation et maintenance fibre optique",
       content: "Installation, maintenance et réparation de réseaux fibre optique. Interventions techniques spécialisées pour particuliers et professionnels en Île-de-France.",
-      image: "/macon.png",
+      image: "/prestation-1.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
       href: "/services/travaux-fibre"
@@ -34,7 +34,7 @@ export default function HomeClient() {
       title: "Fourreau Bouché",
       subtitle: "Débouchage de fourreaux télécom",
       content: "Débouchage professionnel de fourreaux télécommunications. Techniques spécialisées pour libérer les conduits obstrués et permettre le passage de la fibre optique.",
-      image: "/joint-de-pierre.png",
+      image: "/prestation-2.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
       href: "/services/fourreau-bouche"
@@ -43,7 +43,7 @@ export default function HomeClient() {
       title: "Détection de Point de Blocage",
       subtitle: "Localisation précise des obstructions",
       content: "Détection et localisation précise des points de blocage dans les réseaux de télécommunications. Diagnostic technique avancé pour identifier les problèmes.",
-      image: "/extension.png",
+      image: "/prestation-3.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
       href: "/services/detection-blocage"
@@ -52,7 +52,7 @@ export default function HomeClient() {
       title: "Raccordement Fibre Complexe",
       subtitle: "Solutions techniques avancées",
       content: "Raccordements fibre optique complexes et techniques. Expertise pour les installations difficiles nécessitant des compétences spécialisées.",
-      image: "/facade.png",
+      image: "/prestation-4.png",
       gradientFrom: "#e74c3c",
       gradientTo: "#f39c12",
       href: "/services/raccordement-complexe"
@@ -61,7 +61,7 @@ export default function HomeClient() {
       title: "Urgence Fibre",
       subtitle: "Intervention rapide 24h/24",
       content: "Interventions d'urgence fibre optique. Service réactif pour résoudre rapidement vos pannes et problèmes de connexion fibre.",
-      image: "/urgence-fibre.png",
+      image: "/prestation-5.png",
       gradientFrom: "#3498db",
       gradientTo: "#2980b9",
       href: "/services/urgence-fibre"

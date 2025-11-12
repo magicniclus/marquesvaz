@@ -17,7 +17,7 @@ const fibreValDOise95Config = {
   ],
   
   sectorName: "Val-d'Oise (95)",
-  heroImage: "/joint-de-pierre.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Entreprise travaux fibre optique dans le Val-d'Oise",
   heroSubtitle: "Spécialiste fibre optique Val-d'Oise 95. Solutions techniques complètes pour débouchage fourreaux, détection blocages et raccordements sur tout le département.",
   

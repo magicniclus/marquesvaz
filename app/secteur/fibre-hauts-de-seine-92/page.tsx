@@ -17,7 +17,7 @@ const fibreHautsDeSeine92Config = {
   ],
   
   sectorName: "Hauts-de-Seine (92)",
-  heroImage: "/extension.png",
+  heroImage: "/prestation-2.png",
   heroTitle: "Entreprise travaux fibre optique dans les Hauts-de-Seine",
   heroSubtitle: "Spécialiste fibre optique Hauts-de-Seine 92. Interventions techniques pour débouchage fourreaux, détection blocages et raccordements complexes sur tout le département.",
   

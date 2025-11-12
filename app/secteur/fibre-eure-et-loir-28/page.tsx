@@ -17,7 +17,7 @@ const fibreEureEtLoir28Config = {
   ],
   
   sectorName: "Eure-et-Loir (28)",
-  heroImage: "/extension.png",
+  heroImage: "/prestation-4.png",
   heroTitle: "Entreprise travaux fibre optique en Eure-et-Loir",
   heroSubtitle: "Spécialiste fibre optique Eure-et-Loir 28. Interventions techniques pour débouchage fourreaux, détection blocages et raccordements complexes dans tout le département.",
   

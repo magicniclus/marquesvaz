@@ -19,7 +19,7 @@ const fibrePoissyConfig = {
   ],
   
   sectorName: "Poissy",
-  heroImage: "/facade.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Entreprise travaux fibre optique à Poissy",
   heroSubtitle: "Spécialiste fibre optique Poissy Yvelines. Interventions techniques expertes pour débouchage fourreaux, détection blocages et raccordements complexes dans cette ville industrielle.",
   

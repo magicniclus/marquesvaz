@@ -2,10 +2,10 @@
   "company": {
     "name": "RAFCOM",
     "legalName": "RAFCOM - Spécialiste des travaux fibre optique",
-    "address": "Paris (75015)",
+    "address": "200 rue de la Croix Nivert, 75015 Paris",
     "phone": "07 83 49 01 36",
     "email": "contact@rafcom.net",
-    "siret": "Entrepreneur du bâtiment spécialisé fibre optique",
+    "siret": "991 943 010 00017",
     "ceo": "Rafik Hamel"
   },
   "hero": {
@@ -118,24 +118,24 @@
   "partners": {
     "logos": [
       {
-        "src": "/logo/SMA_BTP.png",
-        "alt": "SMA Rénovation",
-        "name": "SMA Rénovation"
+        "src": "/logo/bouygues.png",
+        "alt": "Bouygues Telecom",
+        "name": "Bouygues"
       },
       {
-        "src": "/logo/decennale.png",
-        "alt": "Assurance Décennale",
-        "name": "Garantie Décennale"
+        "src": "/logo/orange.png",
+        "alt": "Orange",
+        "name": "Orange"
+      },
+      {
+        "src": "/logo/sfr.jpg",
+        "alt": "SFR",
+        "name": "SFR"
       },
       {
         "src": "/logo/tmc-partenaire.png",
         "alt": "TMC Partenaire",
         "name": "TMC"
-      },
-      {
-        "src": "/rge.png",
-        "alt": "RGE Qualifié",
-        "name": "RGE"
       }
     ]
   },

@@ -54,23 +54,20 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center">
                 <motion.div 
-                  className="w-10 h-10 rounded-lg bg-white flex items-center justify-center shadow-lg overflow-hidden"
+                  className="w-16 h-16 rounded-lg bg-white flex items-center justify-center shadow-lg overflow-hidden"
                   whileHover={{ rotate: 5 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
                     src="/logo.png" 
-                    alt="Logo" 
-                    width={40} 
-                    height={40} 
+                    alt="Logo RAFCOM" 
+                    width={56} 
+                    height={56} 
                     className="object-contain"
                   />
                 </motion.div>
-                <span className="text-xl font-bold">
-                  RAFCOM
-                </span>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
                 Spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes et urgences fibre en Île-de-France.

@@ -17,7 +17,7 @@ const fibreParis14Config = {
   ],
   
   sectorName: "Paris 14ème",
-  heroImage: "/joint-de-pierre.png",
+  heroImage: "/prestation-1.png",
   heroTitle: "Entreprise travaux fibre optique à Paris 14ème",
   heroSubtitle: "Spécialiste fibre optique Paris 14ème. Solutions techniques pour débouchage fourreaux, détection blocages et raccordements complexes avec intervention rapide.",
   

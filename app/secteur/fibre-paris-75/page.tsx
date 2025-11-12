@@ -17,7 +17,7 @@ const fibreParis75Config = {
   ],
   
   sectorName: "Paris (75)",
-  heroImage: "/macon.png",
+  heroImage: "/prestation-1.png",
   heroTitle: "Entreprise travaux fibre optique à Paris",
   heroSubtitle: "Spécialiste fibre optique Paris 75. Solutions complètes pour débouchage fourreaux, détection blocages, raccordements complexes et urgences fibre dans tous les arrondissements.",
   

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { MapPin, ChevronRight, Star, Building2, Phone } from 'lucide-react';
+import Breadcrumb from '@/components/Breadcrumb';
 
 const sectors = [
   { name: 'Paris (75)', slug: 'fibre-paris-75' },
@@ -26,12 +27,7 @@ const sectors = [
   { name: 'Évry-Courcouronnes', slug: 'fibre-evry-courcouronnes' },
   { name: 'Meaux', slug: 'fibre-meaux' },
   { name: 'Poissy', slug: 'fibre-poissy' },
-  { name: 'Chelles', slug: 'fibre-chelles' },
-  { name: 'Issy-les-Moulineaux', slug: 'fibre-issy-les-moulineaux' },
-  { name: 'Boulogne-Billancourt', slug: 'fibre-boulogne-billancourt' },
-  { name: 'Vanves', slug: 'fibre-vanves' },
-  { name: 'Malakoff', slug: 'fibre-malakoff' },
-  { name: 'Montrouge', slug: 'fibre-montrouge' }
+  { name: 'Chelles', slug: 'fibre-chelles' }
 ];
 
 export default function SecteurIndexClient() {
@@ -43,11 +39,15 @@ export default function SecteurIndexClient() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-white">
             {/* Breadcrumb */}
-            <nav className="flex items-center justify-center space-x-2 text-sm mb-6 opacity-80">
-              <Link href="/" className="hover:text-orange-300 transition-colors">Accueil</Link>
-              <ChevronRight className="h-4 w-4" />
-              <span className="text-orange-300">Secteurs</span>
-            </nav>
+            <div className="flex justify-center mb-6">
+              <Breadcrumb 
+                items={[
+                  { label: 'Accueil', href: '/' },
+                  { label: 'Secteurs', current: true }
+                ]}
+                className="opacity-90"
+              />
+            </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Nos secteurs d'intervention fibre
@@ -64,7 +64,7 @@ export default function SecteurIndexClient() {
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Star className="h-5 w-5 text-yellow-300" />
-                <span className="text-sm font-medium">27 secteurs couverts</span>
+                <span className="text-sm font-medium">22 secteurs couverts</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Building2 className="h-5 w-5 text-green-300" />

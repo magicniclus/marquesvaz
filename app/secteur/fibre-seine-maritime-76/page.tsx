@@ -17,7 +17,7 @@ const fibreSeineMaritime76Config = {
   ],
   
   sectorName: "Seine-Maritime (76)",
-  heroImage: "/joint-de-pierre.png",
+  heroImage: "/prestation-4.png",
   heroTitle: "Entreprise travaux fibre optique en Seine-Maritime",
   heroSubtitle: "Spécialiste fibre optique Seine-Maritime 76. Interventions techniques pour débouchage fourreaux, détection blocages et raccordements complexes dans tout le département.",
   

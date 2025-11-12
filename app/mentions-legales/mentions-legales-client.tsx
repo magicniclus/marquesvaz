@@ -50,16 +50,16 @@ export default function MentionsLegalesClient() {
               </div>
               
               <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p><strong>Dénomination sociale :</strong> BATI FRANCE</p>
-                <p><strong>Forme juridique :</strong> Société par actions simplifiée</p>
-                <p><strong>Gérant :</strong> BEN MAHBOUDI ISSAM</p>
-                <p><strong>Adresse du siège social :</strong> 17 avenue Gambetta, 75020 Paris</p>
-                <p><strong>Téléphone :</strong> +33 6 59 69 94 15</p>
-                <p><strong>Email :</strong> <a href="mailto:batifrance@outlook.fr" className="text-gray-600 hover:text-gray-800 transition-colors">batifrance@outlook.fr</a></p>
-                <p><strong>SIRET :</strong> 82426324600013</p>
-                <p><strong>Activité :</strong> Rénovation intérieure et extérieure, peinture, ravalement, électricité, plomberie, services et travaux de sous-traitance</p>
+                <p><strong>Dénomination sociale :</strong> RAFCOM</p>
+                <p><strong>Forme juridique :</strong> SASU (Société par Actions Simplifiée Unipersonnelle)</p>
+                <p><strong>Directeur de la publication :</strong> Rafik Hamel</p>
+                <p><strong>Siège social :</strong> 200 rue de la Croix Nivert, 75015 Paris</p>
+                <p><strong>Téléphone :</strong> 07 83 49 01 36</p>
+                <p><strong>Email :</strong> <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcom.net</a></p>
+                <p><strong>SIRET :</strong> 991 943 010 00017</p>
+                <p><strong>SIREN :</strong> 991 943 010</p>
+                <p><strong>Activité :</strong> Travaux de fibre optique, débouchage de fourreaux télécommunications, détection de points de blocage, raccordements complexes et interventions d'urgence</p>
                 <p><strong>Zone d'intervention :</strong> Paris et Île-de-France</p>
-                <p><strong>Assurance décennale :</strong> MAAF - Contrat n° 193378995 G - NCE : 001</p>
               </div>
             </div>
 
@@ -67,8 +67,8 @@ export default function MentionsLegalesClient() {
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Directeur de publication</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p><strong>Directeur de publication :</strong> BEN MAHBOUDI ISSAM</p>
-                <p><strong>Contact :</strong> <a href="mailto:batifrance@outlook.fr" className="text-gray-600 hover:text-gray-800 transition-colors">batifrance@outlook.fr</a></p>
+                <p><strong>Directeur de publication :</strong> Rafik Hamel</p>
+                <p><strong>Contact :</strong> <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcom.net</a></p>
               </div>
             </div>
 
@@ -95,9 +95,9 @@ export default function MentionsLegalesClient() {
                   sauf autorisation expresse du directeur de la publication.
                 </p>
                 <p>
-                  Les marques et logos figurant sur le site sont déposés par BATI FRANCE ou éventuellement par des partenaires. 
+                  Les marques et logos figurant sur le site sont déposés par RAFCOM ou éventuellement par des partenaires. 
                   Toute reproduction totale ou partielle de ces marques ou de ces logos, effectuée à partir des éléments du site 
-                  sans l'autorisation expresse de BATI FRANCE est donc prohibée.
+                  sans l'autorisation expresse de RAFCOM est donc prohibée.
                 </p>
               </div>
             </div>
@@ -107,18 +107,18 @@ export default function MentionsLegalesClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Protection des données personnelles</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  BATI FRANCE s'engage à respecter la réglementation en vigueur applicable au traitement des données personnelles, 
+                  RAFCOM s'engage à respecter la réglementation en vigueur applicable au traitement des données personnelles, 
                   notamment la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés dans sa version 
                   actuelle et le Règlement Général sur la Protection des Données (RGPD).
                 </p>
                 <p>
-                  Les données personnelles collectées sur ce site sont destinées à BATI FRANCE et ne sont jamais transmises à des tiers 
+                  Les données personnelles collectées sur ce site sont destinées à RAFCOM et ne sont jamais transmises à des tiers 
                   sans votre consentement préalable.
                 </p>
                 <p>
                   Conformément à la loi "Informatique et Libertés" et au RGPD, vous disposez d'un droit d'accès, de rectification, 
                   de suppression et de portabilité de vos données personnelles. Vous pouvez exercer ces droits en nous contactant à : 
-                  <a href="mailto:batifrance@outlook.fr" className="text-gray-600 hover:text-gray-800 transition-colors"> batifrance@outlook.fr</a>
+                  <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors"> contact@rafcom.net</a>
                 </p>
               </div>
             </div>

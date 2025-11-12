@@ -17,7 +17,7 @@ const fibreSeineEtMarne77Config = {
   ],
   
   sectorName: "Seine-et-Marne (77)",
-  heroImage: "/extension.png",
+  heroImage: "/prestation-3.png",
   heroTitle: "Entreprise travaux fibre optique en Seine-et-Marne",
   heroSubtitle: "Spécialiste fibre optique Seine-et-Marne 77. Solutions techniques complètes pour débouchage fourreaux, détection blocages et raccordements sur tout le département.",
   

@@ -17,7 +17,7 @@ const fibrePasDeCalais62Config = {
   ],
   
   sectorName: "Pas-de-Calais (62)",
-  heroImage: "/joint-de-pierre.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Entreprise travaux fibre optique dans le Pas-de-Calais",
   heroSubtitle: "Spécialiste fibre optique Pas-de-Calais 62. Solutions techniques complètes pour débouchage fourreaux, détection blocages et raccordements dans tout le département.",
   

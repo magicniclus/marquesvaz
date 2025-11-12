@@ -19,7 +19,7 @@ const fibreCergyConfig = {
   ],
   
   sectorName: "Cergy",
-  heroImage: "/macon.png",
+  heroImage: "/prestation-5.png",
   heroTitle: "Entreprise travaux fibre optique à Cergy",
   heroSubtitle: "Spécialiste fibre optique Cergy-Pontoise. Solutions techniques expertes pour débouchage fourreaux, détection blocages et raccordements complexes dans la ville nouvelle.",
   

@@ -17,7 +17,7 @@ const fibreEure27Config = {
   ],
   
   sectorName: "Eure (27)",
-  heroImage: "/facade.png",
+  heroImage: "/prestation-4.png",
   heroTitle: "Entreprise travaux fibre optique dans l'Eure",
   heroSubtitle: "Spécialiste fibre optique Eure 27. Solutions techniques complètes pour débouchage fourreaux, détection blocages et raccordements dans tout le département.",
   
