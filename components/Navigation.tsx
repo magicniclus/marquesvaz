@@ -112,7 +112,7 @@ export default function Navigation() {
           >
             <Link href="/" className="flex items-center space-x-2">
               <motion.div 
-                className="w-12 h-12 rounded-xl bg-slate-700 flex items-center justify-center shadow-lg overflow-hidden"
+                className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden"
                 whileHover={{ rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
