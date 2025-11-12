@@ -3,23 +3,23 @@ import ContactClient from './contact-client';
 
 // Métadonnées SEO pour la page contact
 export const metadata: Metadata = {
-  title: "Contact - Adbetton Maçonnerie | Devis Gratuit Saint-Malo",
-  description: "Contactez Adbetton Maçonnerie pour votre projet : maçonnerie générale, joints de pierres, extensions, assainissement autour de Saint-Malo. Devis gratuit et personnalisé. Entrepreneur du bâtiment avec garantie décennale.",
-  keywords: "contact Adbetton, devis gratuit maçonnerie, contact maçon Saint-Malo, devis joints pierres, contact artisan 35400, maçonnerie contact",
-  authors: [{ name: "Adbetton Maçonnerie" }],
-  creator: "Adbetton Maçonnerie",
-  publisher: "Adbetton Maçonnerie",
+  title: "Contact - RAFCOM | Devis Gratuit Travaux Fibre Optique Paris",
+  description: "Contactez RAFCOM pour vos travaux fibre optique : débouchage fourreaux, détection blocages, raccordements complexes et urgences fibre en Île-de-France. Devis gratuit et personnalisé.",
+  keywords: "contact RAFCOM, devis gratuit fibre optique, contact spécialiste fibre Paris, devis débouchage fourreaux, contact urgence fibre, travaux fibre contact",
+  authors: [{ name: "RAFCOM" }],
+  creator: "RAFCOM",
+  publisher: "RAFCOM",
   openGraph: {
-    title: "Contact Adbetton Maçonnerie - Devis Gratuit Saint-Malo",
-    description: "Contactez nos experts en maçonnerie pour votre projet. Devis gratuit et personnalisé autour de Saint-Malo.",
+    title: "Contact RAFCOM - Devis Gratuit Travaux Fibre Optique Paris",
+    description: "Contactez nos experts en travaux fibre optique pour votre projet. Devis gratuit et personnalisé en Île-de-France.",
     type: "website",
     locale: "fr_FR",
-    siteName: "Adbetton Maçonnerie - Savoir-faire familial",
+    siteName: "RAFCOM - Spécialiste Travaux Fibre Optique",
   },
   twitter: {
     card: "summary",
-    title: "Contact Adbetton Maçonnerie - Devis Gratuit",
-    description: "Contactez nos experts en maçonnerie pour votre projet autour de Saint-Malo.",
+    title: "Contact RAFCOM - Devis Gratuit Fibre Optique",
+    description: "Contactez nos experts en travaux fibre optique pour votre projet en Île-de-France.",
   },
   robots: {
     index: true,

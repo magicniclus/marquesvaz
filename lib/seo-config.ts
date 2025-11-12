@@ -14,30 +14,30 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "Bati France - Spécialistes en Rénovation à Paris",
-  description: "Bati France, spécialistes dans tous les corps d'état : peinture, ravalement, électricité, plomberie, rénovation globale. Devis gratuit à Paris 75020.",
+  title: "RAFCOM - Spécialiste Travaux Fibre Optique à Paris",
+  description: "RAFCOM, spécialiste des travaux fibre optique : débouchage fourreaux, détection blocages, raccordements complexes et urgences fibre en Île-de-France. Devis gratuit.",
   keywords: [
-    "rénovation Paris",
-    "peinture ravalement Paris",
-    "électricité plomberie Paris",
-    "rénovation globale Paris",
-    "entrepreneur bâtiment Paris",
-    "travaux rénovation 75020",
-    "Bati France",
-    "construction Paris",
-    "artisan rénovation",
-    "devis gratuit",
-    "spécialistes en rénovation",
-    "tous corps d'état",
-    "entrepreneur du bâtiment"
+    "travaux fibre optique Paris",
+    "débouchage fourreaux Paris",
+    "détection point blocage fibre",
+    "raccordement fibre complexe",
+    "urgence fibre optique",
+    "travaux télécommunications Paris",
+    "RAFCOM",
+    "fibre optique Île-de-France",
+    "entrepreneur fibre optique",
+    "devis gratuit fibre",
+    "spécialiste fibre optique",
+    "installation fibre optique",
+    "maintenance fibre optique"
   ],
-  author: "Bati France",
-  siteUrl: "https://batifrance.fr",
-  siteName: "Bati France - Spécialistes en Rénovation",
+  author: "RAFCOM",
+  siteUrl: "https://rafcom.net",
+  siteName: "RAFCOM - Spécialiste Travaux Fibre Optique",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
-  twitterHandle: "@batifrance"
+  twitterHandle: "@rafcom"
 };
 
 export function generateMetadata(
@@ -114,29 +114,29 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "Bati France",
-  "legalName": "Bati France - Spécialistes en Rénovation",
+  "name": "RAFCOM",
+  "legalName": "RAFCOM - Spécialiste Travaux Fibre Optique",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
-    "@type": "Organization",
-    "name": "Équipe Bati France"
+    "@type": "Person",
+    "name": "Rafik Hamel"
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "17 avenue Gambetta",
+    "streetAddress": "200 rue de la Croix Nivert",
     "addressLocality": "Paris",
-    "postalCode": "75020",
+    "postalCode": "75015",
     "addressRegion": "Île-de-France",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33659699415",
+    "telephone": "0783490136",
     "contactType": "customer service",
-    "email": "batifrance@outlook.fr",
+    "email": "contact@rafcom.net",
     "availableLanguage": "French"
   },
   "areaServed": [
@@ -162,15 +162,15 @@ export const organizationSchema = {
     }
   ],
   "serviceType": [
-    "Peinture et Ravalement",
-    "Électricité et Plomberie", 
-    "Rénovation globale",
-    "Cloisons Sèches",
-    "Doublages et Isolation",
-    "Faux Plafonds",
-    "Finitions Plâtrerie",
-    "Construction",
-    "Travaux de rénovation"
+    "Travaux Fibre Optique",
+    "Débouchage Fourreaux Télécommunications", 
+    "Détection Points de Blocage",
+    "Raccordements Fibre Complexes",
+    "Interventions d'Urgence Fibre",
+    "Installation Fibre Optique",
+    "Maintenance Réseaux Fibre",
+    "Télécommunications",
+    "Expertise Technique Fibre"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Sa 08:00-18:00",

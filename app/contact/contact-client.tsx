@@ -45,11 +45,11 @@ export default function ContactClient() {
   };
 
   const contactInfo = {
-    address: "17 avenue Gambetta\nParis 75020",
-    phone: "+33 6 59 69 94 15",
-    email: "batifrance@outlook.fr",
+    address: "200 rue de la Croix Nivert\nParis 75015",
+    phone: "07 83 49 01 36",
+    email: "contact@rafcom.net",
     hours: "Lundi - Samedi: 8h00 - 18h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=17+avenue+Gambetta,+Paris+75020&t=&z=15&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=200+rue+de+la+Croix+Nivert,+Paris+75015&t=&z=15&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -70,7 +70,7 @@ export default function ContactClient() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de rénovation ? Notre équipe Bati France est là pour vous accompagner dans tous vos projets de construction et rénovation.
+              Un projet de travaux fibre optique ? Notre équipe RAFCOM est là pour vous accompagner dans tous vos besoins en télécommunications et fibre optique.
             </p>
           </motion.div>
         </div>

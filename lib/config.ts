@@ -17,6 +17,7 @@ export interface HeroConfig {
   buttonHref: string;
   backgroundImage?: string;
   backgroundVideo?: string;
+  bulletPoints?: string[];
 }
 
 export interface AboutSection {

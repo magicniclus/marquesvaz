@@ -48,17 +48,16 @@ export default async function Image() {
               lineHeight: '1.1',
             }}
           >
-            Belrhali
+            RAFCOM
           </h1>
           <p
             style={{
-              fontSize: '32px',
+              fontSize: '28px',
               color: '#6b7280',
-              margin: '0 0 30px 0',
-              lineHeight: '1.3',
+              margin: '20px 0 0 0',
             }}
           >
-            Artisan du Bâtiment
+            Spécialiste Fibre Optique
           </p>
           <div
             style={{
@@ -69,11 +68,11 @@ export default async function Image() {
               color: '#374151',
             }}
           >
-            <span>Maçonnerie</span>
+            <span>Travaux Fibre</span>
             <span>•</span>
-            <span>Terrassement</span>
+            <span>Débouchage Fourreaux</span>
             <span>•</span>
-            <span>Menuiserie</span>
+            <span>Urgences Fibre</span>
           </div>
           <p
             style={{
@@ -82,7 +81,7 @@ export default async function Image() {
               margin: '30px 0 0 0',
             }}
           >
-            Nouvelle-Aquitaine
+            Île-de-France
           </p>
         </div>
       </div>

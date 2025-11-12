@@ -25,18 +25,19 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "Adbetton Maçonnerie - Savoir-faire familial depuis 2 générations",
-  description = "Maçonnerie générale, joints de pierres, extensions, ouvertures, enduits de façade et assainissement. Un travail soigné, durable et de qualité dans un rayon de 50 km autour de Saint-Malo.",
+  title = "RAFCOM - Spécialiste des travaux fibre optique",
+  description = "Travaux fibre optique, débouchage de fourreaux, détection de points de blocage, raccordements complexes et interventions d'urgence. Un service professionnel et réactif en Île-de-France.",
   bulletPoints = [
-    "Entrepreneur du bâtiment avec garantie décennale",
-    "Équipe de 2 professionnels expérimentés",
-    "Intervention en Bretagne et Normandie"
+    "Spécialiste fibre optique certifié",
+    "Expertise technique avancée",
+    "Intervention rapide en Île-de-France"
   ],
   googleReviewsWidget
 }: HeroProps) {
   // Use config values if provided, otherwise fall back to props or defaults
   const heroTitle = config?.title || title;
   const heroSubtitle = config?.subtitle || description;
+  const heroBulletPoints = config?.bulletPoints || bulletPoints;
   // const heroButtonText = config?.buttonText || "Demander un devis";
   // const heroButtonHref = config?.buttonHref || "#contact";
   const heroBackgroundImage = config?.backgroundImage || backgroundImage;
@@ -173,7 +174,7 @@ export default function Hero({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              {bulletPoints.map((point, index) => (
+              {heroBulletPoints.map((point, index) => (
                 <motion.li 
                   key={index}
                   className="flex items-center space-x-3"

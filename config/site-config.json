@@ -14,7 +14,12 @@
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
-    "backgroundVideo": "/video.mp4"
+    "backgroundVideo": "/video.mp4",
+    "bulletPoints": [
+      "Spécialiste fibre optique certifié",
+      "Expertise technique avancée",
+      "Intervention rapide en Île-de-France"
+    ]
   },
   "about": {
     "sections": [

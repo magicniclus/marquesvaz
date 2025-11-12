@@ -155,12 +155,12 @@ export default function MentionsLegalesClient() {
                 </p>
                 <p>
                   Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email, 
-                  à l'adresse <a href="mailto:batifrance@outlook.fr" className="text-gray-600 hover:text-gray-800 transition-colors">batifrance@outlook.fr</a>, 
+                  à l'adresse <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcom.net</a>, 
                   en décrivant le problème de la manière la plus précise possible.
                 </p>
                 <p>
                   Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule responsabilité. 
-                  En conséquence, BATI FRANCE ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur 
+                  En conséquence, RAFCOM ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur 
                   ou d'une quelconque perte de données consécutives au téléchargement.
                 </p>
               </div>
@@ -171,7 +171,7 @@ export default function MentionsLegalesClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Droit applicable et juridiction compétente</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Tout litige en relation avec l'utilisation du site www.batifrance.fr est soumis au droit français. 
+                  Tout litige en relation avec l'utilisation du site www.rafcom.net est soumis au droit français. 
                   Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.
                 </p>
               </div>
@@ -192,8 +192,8 @@ export default function MentionsLegalesClient() {
                 <p>
                   Pour toute question relative aux présentes mentions légales, vous pouvez nous contacter :
                 </p>
-                <p><strong>Email :</strong> <a href="mailto:batifrance@outlook.fr" className="text-gray-600 hover:text-gray-800 transition-colors">batifrance@outlook.fr</a></p>
-                <p><strong>Téléphone :</strong> <a href="tel:+33659699415" className="text-gray-600 hover:text-gray-800 transition-colors">+33 6 59 69 94 15</a></p>
+                <p><strong>Email :</strong> <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcom.net</a></p>
+                <p><strong>Téléphone :</strong> <a href="tel:0783490136" className="text-gray-600 hover:text-gray-800 transition-colors">07 83 49 01 36</a></p>
               </div>
             </div>
           </motion.div>

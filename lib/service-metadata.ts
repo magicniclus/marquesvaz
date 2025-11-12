@@ -8,16 +8,16 @@ export function generateServiceMetadata(
   description: string,
   keywords: string[]
 ): Metadata {
-  const title = `${serviceName} ${location} - Adbetton Maçonnerie | Devis Gratuit`;
-  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez Adbetton Maçonnerie.`;
+  const title = `${serviceName} ${location} - RAFCOM | Devis Gratuit`;
+  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez RAFCOM.`;
 
   return {
     title,
     description: metaDescription,
-    keywords: [...keywords, 'devis gratuit', 'Adbetton Maçonnerie', location].join(', '),
-    authors: [{ name: 'Adbetton Maçonnerie' }],
-    creator: 'Adbetton Maçonnerie',
-    publisher: 'Adbetton Maçonnerie',
+    keywords: [...keywords, 'devis gratuit', 'RAFCOM', location].join(', '),
+    authors: [{ name: 'RAFCOM' }],
+    creator: 'RAFCOM',
+    publisher: 'RAFCOM',
     formatDetection: {
       email: false,
       address: false,
