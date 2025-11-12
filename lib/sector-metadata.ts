@@ -7,19 +7,19 @@ export function generateSectorMetadata(
   keywords: string[]
 ): Metadata {
   return {
-    title: `Maçonnerie ${location} – Adbetton Maçonnerie | Devis Gratuit`,
+    title: `Travaux Fibre ${location} – RAFCOM | Devis Gratuit`,
     description: description,
     keywords: keywords.join(', '),
     openGraph: {
-      title: `Maçonnerie ${location} – Adbetton Maçonnerie`,
+      title: `Travaux Fibre ${location} – RAFCOM`,
       description: description,
       type: 'website',
       locale: 'fr_FR',
-      siteName: 'Adbetton Maçonnerie - Savoir-faire familial',
+      siteName: 'RAFCOM - Spécialiste Fibre Optique',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Maçonnerie ${location} – Adbetton Maçonnerie`,
+      title: `Travaux Fibre ${location} – RAFCOM`,
       description: description,
     },
     robots: {
@@ -34,7 +34,7 @@ export function generateSectorMetadata(
       },
     },
     alternates: {
-      canonical: `https://batifrance.fr/secteur/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
+      canonical: `https://rafcom.net/secteur/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
     },
   };
 }

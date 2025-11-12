@@ -128,7 +128,7 @@ export default function SectorPage({
   const sectorSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Bati France",
+    "name": "RAFCOM",
     "description": description,
     "telephone": contactInfo.phone,
     "email": contactInfo.email,
@@ -148,7 +148,7 @@ export default function SectorPage({
         "name": area
       }))
     ],
-    "serviceType": "Rénovation tous corps d'état",
+    "serviceType": "Travaux fibre optique",
     "priceRange": "$$"
   };
 
@@ -168,7 +168,7 @@ export default function SectorPage({
         <div className="absolute inset-0 z-0">
           <Image
             src={heroImage}
-            alt={`Rénovation ${location}`}
+            alt={`Travaux fibre ${location}`}
             fill
             className="object-cover"
             priority
@@ -208,11 +208,11 @@ export default function SectorPage({
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Star className="h-5 w-5 text-yellow-300" />
-                <span className="text-sm font-medium">Entreprise locale</span>
+                <span className="text-sm font-medium">Spécialiste fibre</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Shield className="h-5 w-5 text-green-300" />
-                <span className="text-sm font-medium">Garantie décennale</span>
+                <span className="text-sm font-medium">Intervention rapide</span>
               </div>
             </div>
 
@@ -248,7 +248,7 @@ export default function SectorPage({
                 transition={{ duration: 0.6 }}
               >
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Nos prestations de rénovation à {location}
+                  Nos prestations fibre optique à {location}
                 </h2>
                 <div className="prose prose-lg max-w-none">
                   <p className="text-gray-600 leading-relaxed">
@@ -265,7 +265,7 @@ export default function SectorPage({
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
                 <h3 className="text-2xl font-bold text-gray-900 mb-8">
-                  Travaux de rénovation tous corps d'état à {location}
+                  Services fibre optique spécialisés à {location}
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {mainServices.map((service, index) => (
@@ -297,7 +297,7 @@ export default function SectorPage({
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
                 <h3 className="text-2xl font-bold text-gray-900 mb-8">
-                  Pourquoi choisir Bati France ?
+                  Pourquoi choisir RAFCOM ?
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {advantages.map((advantage, index) => (
@@ -428,15 +428,15 @@ export default function SectorPage({
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Clock className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-700">Devis sous 24h</span>
+                    <span className="text-gray-700">Intervention sous 24h</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Shield className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-700">Garantie décennale</span>
+                    <span className="text-gray-700">Garantie travaux</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Users className="h-5 w-5 text-orange-500" />
-                    <span className="text-gray-700">Équipe qualifiée</span>
+                    <span className="text-gray-700">Expertise technique</span>
                   </div>
                 </div>
               </motion.div>
@@ -459,7 +459,7 @@ export default function SectorPage({
               Obtenez votre devis gratuit
             </h2>
             <p className="text-xl text-gray-600">
-              Contactez-nous pour obtenir un devis personnalisé pour vos travaux à {location}
+              Contactez-nous pour obtenir un devis personnalisé pour vos travaux fibre à {location}
             </p>
           </motion.div>
 
@@ -548,7 +548,7 @@ export default function SectorPage({
                   value={formData.motif}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent resize-none"
-                  placeholder={`Décrivez vos besoins en rénovation à ${location}...`}
+                  placeholder={`Décrivez vos besoins en travaux fibre à ${location}...`}
                   required
                 />
               </div>

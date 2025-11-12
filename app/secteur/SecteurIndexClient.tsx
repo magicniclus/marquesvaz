@@ -5,28 +5,20 @@ import { motion } from 'framer-motion';
 import { MapPin, ChevronRight, Star, Building2, Phone } from 'lucide-react';
 
 const sectors = [
-  { name: 'Saint-Malo', slug: 'maconnerie-saint-malo' },
-  { name: 'Saint-Suliac', slug: 'maconnerie-saint-suliac' },
-  { name: 'Cancale', slug: 'maconnerie-cancale' },
-  { name: 'Saint-Briac-sur-Mer', slug: 'maconnerie-saint-briac-sur-mer' },
-  { name: 'Saint-Lunaire', slug: 'maconnerie-saint-lunaire' },
-  { name: 'Dinard', slug: 'maconnerie-dinard' },
-  { name: 'La Richardais', slug: 'maconnerie-la-richardais' },
-  { name: 'Pleurtuit', slug: 'maconnerie-pleurtuit' },
-  { name: 'Saint-Coulomb', slug: 'maconnerie-saint-coulomb' },
-  { name: 'Dinan', slug: 'maconnerie-dinan' },
-  { name: 'Dol-de-Bretagne', slug: 'maconnerie-dol-de-bretagne' },
-  { name: 'Le Mont-Dol', slug: 'maconnerie-le-mont-dol' },
-  { name: 'Combourg', slug: 'maconnerie-combourg' },
-  { name: 'Saint-Benoît-des-Ondes', slug: 'maconnerie-saint-benoit-des-ondes' },
-  { name: 'Lancieux', slug: 'maconnerie-lancieux' },
-  { name: 'Plouer-sur-Rance', slug: 'maconnerie-plouer-sur-rance' },
-  { name: 'Miniac-Morvan', slug: 'maconnerie-miniac-morvan' },
-  { name: 'Plerguer', slug: 'maconnerie-plerguer' },
-  { name: 'Châteauneuf-d\'Ille-et-Vilaine', slug: 'maconnerie-chateauneuf-ille-et-vilaine' },
-  { name: 'La Gouesnière', slug: 'maconnerie-la-gouesniere' },
-  { name: 'Baguer-Morvan', slug: 'maconnerie-baguer-morvan' },
-  { name: 'La Fresnais', slug: 'maconnerie-la-fresnais' }
+  { name: 'Paris 15ème', slug: 'fibre-paris-15' },
+  { name: 'Paris 14ème', slug: 'fibre-paris-14' },
+  { name: 'Paris 16ème', slug: 'fibre-paris-16' },
+  { name: 'Paris 7ème', slug: 'fibre-paris-7' },
+  { name: 'Paris 6ème', slug: 'fibre-paris-6' },
+  { name: 'Hauts-de-Seine (92)', slug: 'fibre-hauts-de-seine-92' },
+  { name: 'Seine-Saint-Denis (93)', slug: 'fibre-seine-saint-denis-93' },
+  { name: 'Val-de-Marne (94)', slug: 'fibre-val-de-marne-94' },
+  { name: 'Val-d\'Oise (95)', slug: 'fibre-val-d-oise-95' },
+  { name: 'Issy-les-Moulineaux', slug: 'fibre-issy-les-moulineaux' },
+  { name: 'Boulogne-Billancourt', slug: 'fibre-boulogne-billancourt' },
+  { name: 'Vanves', slug: 'fibre-vanves' },
+  { name: 'Malakoff', slug: 'fibre-malakoff' },
+  { name: 'Montrouge', slug: 'fibre-montrouge' }
 ];
 
 export default function SecteurIndexClient() {
@@ -45,25 +37,25 @@ export default function SecteurIndexClient() {
             </nav>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Nos secteurs d'intervention
+              Nos secteurs d'intervention fibre
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
-              Découvrez nos prestations de maçonnerie générale dans 21 communes 
-              de Bretagne et Normandie, dans un rayon de 50km autour de Saint-Malo.
+              Découvrez nos prestations de travaux fibre optique en Île-de-France : 
+              débouchage fourreaux, détection blocages, raccordements complexes et urgences.
             </p>
             
             <div className="flex flex-wrap justify-center items-center gap-4 mb-8">
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <MapPin className="h-5 w-5 text-orange-300" />
-                <span className="text-sm font-medium">Bretagne & Normandie</span>
+                <span className="text-sm font-medium">Île-de-France</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Star className="h-5 w-5 text-yellow-300" />
-                <span className="text-sm font-medium">21 secteurs couverts</span>
+                <span className="text-sm font-medium">14 secteurs couverts</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Building2 className="h-5 w-5 text-green-300" />
-                <span className="text-sm font-medium">Savoir-faire familial</span>
+                <span className="text-sm font-medium">Spécialiste fibre optique</span>
               </div>
             </div>
           </div>
@@ -78,7 +70,7 @@ export default function SecteurIndexClient() {
               Choisissez votre secteur
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Cliquez sur votre commune pour découvrir nos prestations de maçonnerie spécialisées dans votre secteur.
+              Cliquez sur votre secteur pour découvrir nos prestations fibre optique spécialisées dans votre zone.
             </p>
           </div>
 
@@ -101,7 +93,7 @@ export default function SecteurIndexClient() {
                     <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-orange-600 group-hover:translate-x-1 transition-all duration-200" />
                   </div>
                   <p className="text-sm text-gray-600 mt-2">
-                    Maçonnerie générale, joints de pierres, extensions
+                    Travaux fibre, débouchage fourreaux, urgences
                   </p>
                 </Link>
               </motion.div>
@@ -117,8 +109,8 @@ export default function SecteurIndexClient() {
             Votre secteur n'est pas listé ?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Nous intervenons dans un rayon de 50km autour de Saint-Malo. 
-            Contactez-nous pour connaître nos possibilités d'intervention dans votre commune.
+            Nous intervenons sur toute l'Île-de-France pour vos travaux fibre optique. 
+            Contactez-nous pour connaître nos possibilités d'intervention dans votre secteur.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -128,11 +120,11 @@ export default function SecteurIndexClient() {
               Nous contacter
             </Link>
             <Link
-              href="tel:0648812578"
+              href="tel:0783490136"
               className="inline-flex items-center justify-center px-6 py-3 bg-white text-gray-900 font-semibold rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors duration-200"
             >
               <Phone className="h-4 w-4 mr-2" />
-              06 48 81 25 78
+              07 83 49 01 36
             </Link>
           </div>
         </div>
