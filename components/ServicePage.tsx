@@ -29,20 +29,20 @@ interface ServicePageProps {
   // Contenu détaillé
   mainDescription: string;
   
-  // Structure SEO optimisée
-  problemSection: {
+  // Structure SEO optimisée (optionnelle)
+  problemSection?: {
     title: string;
     description: string;
     problems: string[];
   };
   
-  diagnosticSection: {
+  diagnosticSection?: {
     title: string;
     description: string;
     steps: string[];
   };
   
-  solutionSection: {
+  solutionSection?: {
     title: string;
     description: string;
     solutions: string[];
@@ -270,106 +270,112 @@ export default function ServicePage({
               </motion.div>
 
               {/* Section Problème */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.1 }}
-              >
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  {problemSection.title}
-                </h2>
-                <div className="prose prose-lg max-w-none mb-6">
-                  <p className="text-gray-600 leading-relaxed">
-                    {problemSection.description}
-                  </p>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {problemSection.problems.map((problem, index) => (
-                    <motion.div
-                      key={index}
-                      className="flex items-start space-x-3 bg-red-50 p-4 rounded-lg"
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: index * 0.1 }}
-                    >
-                      <div className="bg-red-500 rounded-full p-1 flex-shrink-0 mt-1">
-                        <X className="h-3 w-3 text-white" />
-                      </div>
-                      <span className="text-gray-700 text-sm">{problem}</span>
-                    </motion.div>
-                  ))}
-                </div>
-              </motion.div>
+              {problemSection && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.1 }}
+                >
+                  <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                    {problemSection.title}
+                  </h2>
+                  <div className="prose prose-lg max-w-none mb-6">
+                    <p className="text-gray-600 leading-relaxed">
+                      {problemSection.description}
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {problemSection.problems.map((problem, index) => (
+                      <motion.div
+                        key={index}
+                        className="flex items-start space-x-3 bg-red-50 p-4 rounded-lg"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.4, delay: index * 0.1 }}
+                      >
+                        <div className="bg-red-500 rounded-full p-1 flex-shrink-0 mt-1">
+                          <X className="h-3 w-3 text-white" />
+                        </div>
+                        <span className="text-gray-700 text-sm">{problem}</span>
+                      </motion.div>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
 
               {/* Section Diagnostic */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-              >
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  {diagnosticSection.title}
-                </h2>
-                <div className="prose prose-lg max-w-none mb-6">
-                  <p className="text-gray-600 leading-relaxed">
-                    {diagnosticSection.description}
-                  </p>
-                </div>
-                <div className="space-y-4">
-                  {diagnosticSection.steps.map((step, index) => (
-                    <motion.div
-                      key={index}
-                      className="flex items-start space-x-4 bg-blue-50 p-4 rounded-lg"
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: index * 0.1 }}
-                    >
-                      <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">
-                        {index + 1}
-                      </div>
-                      <span className="text-gray-700">{step}</span>
-                    </motion.div>
-                  ))}
-                </div>
-              </motion.div>
+              {diagnosticSection && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                >
+                  <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                    {diagnosticSection.title}
+                  </h2>
+                  <div className="prose prose-lg max-w-none mb-6">
+                    <p className="text-gray-600 leading-relaxed">
+                      {diagnosticSection.description}
+                    </p>
+                  </div>
+                  <div className="space-y-4">
+                    {diagnosticSection.steps.map((step, index) => (
+                      <motion.div
+                        key={index}
+                        className="flex items-start space-x-4 bg-blue-50 p-4 rounded-lg"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.4, delay: index * 0.1 }}
+                      >
+                        <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">
+                          {index + 1}
+                        </div>
+                        <span className="text-gray-700">{step}</span>
+                      </motion.div>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
 
               {/* Section Solution */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-              >
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  {solutionSection.title}
-                </h2>
-                <div className="prose prose-lg max-w-none mb-6">
-                  <p className="text-gray-600 leading-relaxed">
-                    {solutionSection.description}
-                  </p>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {solutionSection.solutions.map((solution, index) => (
-                    <motion.div
-                      key={index}
-                      className="flex items-start space-x-3 bg-green-50 p-4 rounded-lg"
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: index * 0.1 }}
-                    >
-                      <div className="bg-green-500 rounded-full p-1 flex-shrink-0 mt-1">
-                        <Check className="h-3 w-3 text-white" />
-                      </div>
-                      <span className="text-gray-700 text-sm">{solution}</span>
-                    </motion.div>
-                  ))}
-                </div>
-              </motion.div>
+              {solutionSection && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.3 }}
+                >
+                  <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                    {solutionSection.title}
+                  </h2>
+                  <div className="prose prose-lg max-w-none mb-6">
+                    <p className="text-gray-600 leading-relaxed">
+                      {solutionSection.description}
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {solutionSection.solutions.map((solution, index) => (
+                      <motion.div
+                        key={index}
+                        className="flex items-start space-x-3 bg-green-50 p-4 rounded-lg"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.4, delay: index * 0.1 }}
+                      >
+                        <div className="bg-green-500 rounded-full p-1 flex-shrink-0 mt-1">
+                          <Check className="h-3 w-3 text-white" />
+                        </div>
+                        <span className="text-gray-700 text-sm">{solution}</span>
+                      </motion.div>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
 
               {/* Sous-prestations */}
               <motion.div
