@@ -3,36 +3,36 @@ import HomeClient from './home-client';
 
 // Métadonnées SEO pour la page d'accueil
 export const metadata: Metadata = {
-  title: "Adbetton Maçonnerie - Savoir-faire familial Saint-Malo | Devis Gratuit",
-  description: "Adbetton Maçonnerie, spécialistes en maçonnerie générale, joints de pierres, extensions, ouvertures, enduits de façade et assainissement. Entrepreneur du bâtiment avec garantie décennale dans un rayon de 50 km autour de Saint-Malo.",
-  keywords: "maçonnerie Saint-Malo, joints pierres Bretagne, extension maison Saint-Malo, entrepreneur bâtiment 35400, maçonnerie générale Bretagne, Adbetton, assainissement Saint-Malo, enduits façade, terrassement, devis gratuit",
-  authors: [{ name: "Adbetton Maçonnerie" }],
-  creator: "Adbetton Maçonnerie",
-  publisher: "Adbetton Maçonnerie",
+  title: "RAFCOM - Spécialiste Travaux Fibre Optique Île-de-France | Devis Gratuit",
+  description: "RAFCOM, spécialiste travaux fibre optique en Île-de-France. Débouchage fourreaux, détection blocages, raccordements complexes, urgences fibre. Devis gratuit et intervention rapide.",
+  keywords: "travaux fibre optique, fourreau bouché, détection point blocage, raccordement fibre complexe, urgence fibre, débouchage fourreaux, RAFCOM, fibre optique Île-de-France, devis gratuit",
+  authors: [{ name: "RAFCOM" }],
+  creator: "RAFCOM",
+  publisher: "RAFCOM",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "Adbetton Maçonnerie - Savoir-faire familial Saint-Malo",
-    description: "Spécialistes en maçonnerie générale, joints de pierres, extensions, ouvertures, enduits de façade et assainissement. Entrepreneur du bâtiment avec garantie décennale autour de Saint-Malo.",
+    title: "RAFCOM - Spécialiste Travaux Fibre Optique Île-de-France",
+    description: "Spécialiste travaux fibre optique en Île-de-France. Débouchage fourreaux, détection blocages, raccordements complexes, urgences fibre. Devis gratuit et intervention rapide.",
     type: "website",
     locale: "fr_FR",
-    siteName: "Adbetton Maçonnerie - Savoir-faire familial",
+    siteName: "RAFCOM - Spécialiste Fibre Optique",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Adbetton Maçonnerie - Savoir-faire familial Saint-Malo",
+        alt: "RAFCOM - Spécialiste Travaux Fibre Optique Île-de-France",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adbetton Maçonnerie - Savoir-faire familial",
-    description: "Spécialistes en maçonnerie générale, joints de pierres, extensions, ouvertures, enduits de façade et assainissement autour de Saint-Malo.",
+    title: "RAFCOM - Spécialiste Travaux Fibre Optique",
+    description: "Spécialiste travaux fibre optique en Île-de-France. Débouchage fourreaux, détection blocages, raccordements complexes, urgences fibre.",
     images: ["/og-image.jpg"],
   },
   robots: {

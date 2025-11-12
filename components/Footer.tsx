@@ -28,15 +28,15 @@ export default function Footer() {
   ];
 
   const sectorsLinks = [
-    { name: 'Paris 15ème', href: '/secteur/fibre-paris-15' },
-    { name: 'Paris 14ème', href: '/secteur/fibre-paris-14' },
-    { name: 'Paris 16ème', href: '/secteur/fibre-paris-16' },
-    { name: 'Paris 7ème', href: '/secteur/fibre-paris-7' },
-    { name: 'Issy-les-Moulineaux', href: '/secteur/fibre-issy-les-moulineaux' },
-    { name: 'Boulogne-Billancourt', href: '/secteur/fibre-boulogne-billancourt' },
-    { name: 'Vanves', href: '/secteur/fibre-vanves' },
-    { name: 'Malakoff', href: '/secteur/fibre-malakoff' },
-    { name: 'Montrouge', href: '/secteur/fibre-montrouge' },
+    { name: 'Paris (75)', href: '/secteur/fibre-paris-75' },
+    { name: 'Seine-Maritime (76)', href: '/secteur/fibre-seine-maritime-76' },
+    { name: 'Seine-et-Marne (77)', href: '/secteur/fibre-seine-et-marne-77' },
+    { name: 'Yvelines (78)', href: '/secteur/fibre-yvelines-78' },
+    { name: 'Essonne (91)', href: '/secteur/fibre-essonne-91' },
+    { name: 'Hauts-de-Seine (92)', href: '/secteur/fibre-hauts-de-seine-92' },
+    { name: 'Seine-Saint-Denis (93)', href: '/secteur/fibre-seine-saint-denis-93' },
+    { name: 'Val-de-Marne (94)', href: '/secteur/fibre-val-de-marne-94' },
+    { name: 'Val-d\'Oise (95)', href: '/secteur/fibre-val-d-oise-95' },
     { name: 'Voir tous nos secteurs', href: '/secteur' },
   ];
 

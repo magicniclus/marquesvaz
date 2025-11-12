@@ -50,52 +50,54 @@
     "initialDisplayCount": 4,
     "images": [
       {
-        "src": "/images-clients/1.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/1.jpg",
+        "alt": "Intervention RAFCOM - Travaux fibre optique",
+        "title": "Installation fibre optique"
       },
       {
-        "src": "/images-clients/2.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/2.jpg",
+        "alt": "Intervention RAFCOM - Débouchage fourreaux",
+        "title": "Débouchage de fourreaux télécommunications"
       },
       {
-        "src": "/images-clients/3.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/3.jpg",
+        "alt": "Intervention RAFCOM - Détection blocage",
+        "title": "Détection de point de blocage"
       },
       {
-        "src": "/images-clients/4.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/4.jpg",
+        "alt": "Intervention RAFCOM - Raccordement complexe",
+        "title": "Raccordement fibre complexe"
       },
       {
-        "src": "/images-clients/5.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/5.jpg",
+        "alt": "Intervention RAFCOM - Urgence fibre",
+        "title": "Intervention d'urgence fibre"
       },
       {
-        "src": "/images-clients/6.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/6.jpg",
+        "alt": "Intervention RAFCOM - Maintenance fibre",
+        "title": "Maintenance réseau fibre optique"
       },
       {
-        "src": "/images-clients/7.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/7.jpg",
+        "alt": "Intervention RAFCOM - Installation technique",
+        "title": "Installation technique spécialisée"
       },
       {
-        "src": "/images-clients/8.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/8.jpg",
+        "alt": "Intervention RAFCOM - Réparation fibre",
+        "title": "Réparation réseau fibre optique"
       },
       {
-        "src": "/images-clients/9.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/9.jpg",
+        "alt": "Intervention RAFCOM - Diagnostic réseau",
+        "title": "Diagnostic technique réseau"
       },
       {
-        "src": "/images-clients/10.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
-      },
-      {
-        "src": "/images-clients/11.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
-      },
-      {
-        "src": "/images-clients/12.jpeg",
-        "alt": "Réalisation Adbetton Maçonnerie"
+        "src": "/images-clients/10.jpg",
+        "alt": "Intervention RAFCOM - Solutions fibre",
+        "title": "Solutions fibre optique avancées"
       }
     ]
   },

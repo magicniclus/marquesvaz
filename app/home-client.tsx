@@ -61,7 +61,7 @@ export default function HomeClient() {
       title: "Urgence Fibre",
       subtitle: "Intervention rapide 24h/24",
       content: "Interventions d'urgence fibre optique. Service réactif pour résoudre rapidement vos pannes et problèmes de connexion fibre.",
-      image: "/assainissement.png",
+      image: "/urgence-fibre.png",
       gradientFrom: "#3498db",
       gradientTo: "#2980b9",
       href: "/services/urgence-fibre"

@@ -125,8 +125,8 @@ export default function Hero({
         style={getBackgroundStyle()}
       >
         <Image
-          src="/maison-hero.png"
-          alt="Adbetton Maçonnerie - Savoir-faire familial"
+          src="/bg.png"
+          alt="RAFCOM - Spécialiste Travaux Fibre Optique"
           fill
           className="object-cover"
           priority

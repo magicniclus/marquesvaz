@@ -3,49 +3,49 @@ import { generateMetadata } from './seo-config';
 
 // Métadonnées pour la page d'accueil
 export const homeMetadata: Metadata = generateMetadata(
-  "Belrhali - Artisan Maçonnerie, Terrassement & Menuiserie en Nouvelle-Aquitaine",
-  "Belrhali, artisan du bâtiment spécialisé en maçonnerie, terrassement et menuiserie. Devis gratuit en Corrèze, Dordogne, Haute-Vienne, Lot, Gironde et Lot-et-Garonne. Expertise locale depuis 15 ans.",
-  "/og-belrhali-home.jpg",
+  "RAFCOM - Spécialiste Travaux Fibre Optique Île-de-France",
+  "RAFCOM, spécialiste travaux fibre optique en Île-de-France. Débouchage fourreaux, détection blocages, raccordements complexes, urgences fibre. Devis gratuit et intervention rapide.",
+  "/og-rafcom-home.jpg",
   "/"
 );
 
 // Métadonnées pour la section services
 export const servicesMetadata = {
-  title: "Services de Maçonnerie, Terrassement et Menuiserie | Belrhali",
-  description: "Découvrez nos services : maçonnerie (fondations, murs porteurs), terrassement (excavation, drainage) et menuiserie (fenêtres, portes). Devis gratuit en Nouvelle-Aquitaine.",
+  title: "Services Fibre Optique - Débouchage, Détection, Raccordement | RAFCOM",
+  description: "Découvrez nos services fibre optique : débouchage fourreaux, détection blocages, raccordements complexes, urgences fibre. Devis gratuit en Île-de-France.",
   keywords: [
-    "services maçonnerie",
-    "terrassement professionnel", 
-    "menuiserie sur mesure",
-    "fondations béton",
-    "excavation terrain",
-    "fenêtres portes"
+    "services fibre optique",
+    "débouchage fourreaux", 
+    "détection blocages",
+    "raccordement fibre",
+    "urgence fibre",
+    "travaux fibre optique"
   ]
 };
 
 // Métadonnées pour la section réalisations
 export const realisationsMetadata = {
-  title: "Nos Réalisations en Maçonnerie et Construction | Belrhali",
-  description: "Découvrez nos dernières réalisations en maçonnerie, terrassement et menuiserie en Nouvelle-Aquitaine. Projets résidentiels et commerciaux de qualité.",
+  title: "Nos Réalisations en Travaux Fibre Optique | RAFCOM",
+  description: "Découvrez nos dernières réalisations en travaux fibre optique en Île-de-France. Projets résidentiels, commerciaux et industriels de qualité.",
   keywords: [
-    "réalisations maçonnerie",
-    "projets construction",
-    "chantiers Nouvelle-Aquitaine",
-    "travaux finis",
-    "portfolio bâtiment"
+    "réalisations fibre optique",
+    "projets fibre",
+    "chantiers Île-de-France",
+    "travaux fibre finis",
+    "portfolio fibre optique"
   ]
 };
 
 // Métadonnées pour la section contact
 export const contactMetadata = {
-  title: "Contact et Devis Gratuit | Belrhali Artisan Bâtiment",
-  description: "Contactez Belrhali pour un devis gratuit. Intervention en Corrèze, Dordogne, Haute-Vienne, Lot, Gironde et Lot-et-Garonne. Réponse rapide garantie.",
+  title: "Contact et Devis Gratuit | RAFCOM Spécialiste Fibre Optique",
+  description: "Contactez RAFCOM pour un devis gratuit. Intervention en Île-de-France pour tous vos travaux fibre optique. Réponse rapide garantie.",
   keywords: [
-    "devis gratuit maçonnerie",
-    "contact artisan bâtiment",
-    "Corrèze Dordogne",
-    "Haute-Vienne Lot",
-    "Gironde Lot-et-Garonne"
+    "devis gratuit fibre optique",
+    "contact spécialiste fibre",
+    "Île-de-France",
+    "travaux fibre",
+    "intervention rapide"
   ]
 };
 
@@ -63,7 +63,7 @@ export function generateSectionMetadata(
   return generateMetadata(
     sectionData.title,
     sectionData.description,
-    `/og-belrhali-${section}.jpg`,
+    `/og-rafcom-${section}.jpg`,
     `${baseUrl}#${section}`
   );
 }
