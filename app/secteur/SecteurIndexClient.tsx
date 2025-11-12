@@ -17,6 +17,11 @@ const sectors = [
   { name: 'Val-de-Marne (94)', slug: 'fibre-val-de-marne-94' },
   { name: 'Val-d\'Oise (95)', slug: 'fibre-val-d-oise-95' },
   { name: 'Eure-et-Loir (28)', slug: 'fibre-eure-et-loir-28' },
+  { name: 'Eure (27)', slug: 'fibre-eure-27' },
+  { name: 'Oise (60)', slug: 'fibre-oise-60' },
+  { name: 'Pas-de-Calais (62)', slug: 'fibre-pas-de-calais-62' },
+  { name: 'Nord (59)', slug: 'fibre-nord-59' },
+  { name: 'Loiret (45)', slug: 'fibre-loiret-45' },
   { name: 'Issy-les-Moulineaux', slug: 'fibre-issy-les-moulineaux' },
   { name: 'Boulogne-Billancourt', slug: 'fibre-boulogne-billancourt' },
   { name: 'Vanves', slug: 'fibre-vanves' },
@@ -54,7 +59,7 @@ export default function SecteurIndexClient() {
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Star className="h-5 w-5 text-yellow-300" />
-                <span className="text-sm font-medium">17 secteurs couverts</span>
+                <span className="text-sm font-medium">22 secteurs couverts</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Building2 className="h-5 w-5 text-green-300" />
