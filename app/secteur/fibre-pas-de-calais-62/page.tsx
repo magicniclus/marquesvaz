@@ -87,7 +87,7 @@ const fibrePasDeCalais62Config = {
   
   contactInfo: {
     phone: "07 83 49 01 36",
-    email: "contact@rafcom.net",
+    email: "contact@rafcomm.fr",
     address: "Paris (75015), Île-de-France"
   },
   

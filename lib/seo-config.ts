@@ -136,7 +136,7 @@ export const organizationSchema = {
     "@type": "ContactPoint",
     "telephone": "0783490136",
     "contactType": "customer service",
-    "email": "contact@rafcom.net",
+    "email": "contact@rafcomm.fr",
     "availableLanguage": "French"
   },
   "areaServed": [

@@ -47,7 +47,7 @@ export default function ContactClient() {
   const contactInfo = {
     address: "200 rue de la Croix Nivert\nParis 75015",
     phone: "07 83 49 01 36",
-    email: "contact@rafcom.net",
+    email: "contact@rafcomm.fr",
     hours: "Lundi - Samedi: 8h00 - 18h00",
     mapEmbedUrl: "https://maps.google.com/maps?q=200+rue+de+la+Croix+Nivert,+Paris+75015&t=&z=15&ie=UTF8&iwloc=&output=embed"
   };

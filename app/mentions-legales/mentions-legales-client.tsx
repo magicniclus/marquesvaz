@@ -55,7 +55,7 @@ export default function MentionsLegalesClient() {
                 <p><strong>Directeur de la publication :</strong> Rafik Hamel</p>
                 <p><strong>Siège social :</strong> 200 rue de la Croix Nivert, 75015 Paris</p>
                 <p><strong>Téléphone :</strong> 07 83 49 01 36</p>
-                <p><strong>Email :</strong> <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcom.net</a></p>
+                <p><strong>Email :</strong> <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcomm.fr</a></p>
                 <p><strong>SIRET :</strong> 991 943 010 00017</p>
                 <p><strong>SIREN :</strong> 991 943 010</p>
                 <p><strong>Activité :</strong> Travaux de fibre optique, débouchage de fourreaux télécommunications, détection de points de blocage, raccordements complexes et interventions d'urgence</p>
@@ -68,7 +68,7 @@ export default function MentionsLegalesClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Directeur de publication</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p><strong>Directeur de publication :</strong> Rafik Hamel</p>
-                <p><strong>Contact :</strong> <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcom.net</a></p>
+                <p><strong>Contact :</strong> <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcomm.fr</a></p>
               </div>
             </div>
 
@@ -118,7 +118,7 @@ export default function MentionsLegalesClient() {
                 <p>
                   Conformément à la loi "Informatique et Libertés" et au RGPD, vous disposez d'un droit d'accès, de rectification, 
                   de suppression et de portabilité de vos données personnelles. Vous pouvez exercer ces droits en nous contactant à : 
-                  <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors"> contact@rafcom.net</a>
+                  <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors"> contact@rafcomm.fr</a>
                 </p>
               </div>
             </div>
@@ -155,7 +155,7 @@ export default function MentionsLegalesClient() {
                 </p>
                 <p>
                   Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email, 
-                  à l'adresse <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcom.net</a>, 
+                  à l'adresse <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcomm.fr</a>, 
                   en décrivant le problème de la manière la plus précise possible.
                 </p>
                 <p>
@@ -192,7 +192,7 @@ export default function MentionsLegalesClient() {
                 <p>
                   Pour toute question relative aux présentes mentions légales, vous pouvez nous contacter :
                 </p>
-                <p><strong>Email :</strong> <a href="mailto:contact@rafcom.net" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcom.net</a></p>
+                <p><strong>Email :</strong> <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcomm.fr</a></p>
                 <p><strong>Téléphone :</strong> <a href="tel:0783490136" className="text-gray-600 hover:text-gray-800 transition-colors">07 83 49 01 36</a></p>
               </div>
             </div>
