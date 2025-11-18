@@ -142,8 +142,8 @@ export default function Hero({
           {/* Left Section */}
           <motion.div
             className="text-white space-y-8"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
 
@@ -178,8 +178,8 @@ export default function Hero({
                 <motion.li 
                   key={index}
                   className="flex items-center space-x-3"
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 >
                   <div className="bg-orange-500 rounded-full p-1 flex-shrink-0">
@@ -206,8 +206,8 @@ export default function Hero({
           <motion.div
             id="contact-form"
             className="bg-white/95 backdrop-blur-sm rounded-2xl p-8 shadow-2xl"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <motion.h2 

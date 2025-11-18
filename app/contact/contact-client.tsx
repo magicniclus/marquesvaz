@@ -83,8 +83,8 @@ export default function ContactClient() {
             
             {/* Contact Form */}
             <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
               <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
@@ -210,8 +210,8 @@ export default function ContactClient() {
             {/* Contact Info & Map */}
             <motion.div
               className="space-y-8"
-              initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               {/* Contact Information */}

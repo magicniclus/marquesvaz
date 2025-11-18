@@ -292,8 +292,8 @@ export default function ServicePage({
                       <motion.div
                         key={index}
                         className="flex items-start space-x-3 bg-red-50 p-4 rounded-lg"
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.4, delay: index * 0.1 }}
                       >
@@ -328,8 +328,8 @@ export default function ServicePage({
                       <motion.div
                         key={index}
                         className="flex items-start space-x-4 bg-blue-50 p-4 rounded-lg"
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.4, delay: index * 0.1 }}
                       >
@@ -364,8 +364,8 @@ export default function ServicePage({
                       <motion.div
                         key={index}
                         className="flex items-start space-x-3 bg-green-50 p-4 rounded-lg"
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.4, delay: index * 0.1 }}
                       >
@@ -426,8 +426,8 @@ export default function ServicePage({
                     <motion.div
                       key={index}
                       className="flex items-center space-x-3"
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
+                      initial={{ opacity: 0, y: 10 }}
+                      whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: index * 0.1 }}
                     >

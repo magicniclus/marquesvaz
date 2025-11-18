@@ -105,8 +105,8 @@ export default function Navigation() {
           {/* Logo à gauche */}
           <motion.div 
             className="flex-shrink-0"
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             whileHover={{ scale: 1.02 }}
           >
@@ -192,8 +192,8 @@ export default function Navigation() {
                                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-orange-500 transition-colors duration-200"
                                   >
                                     <motion.div
-                                      initial={{ opacity: 0, x: -10 }}
-                                      animate={{ opacity: 1, x: 0 }}
+                                      initial={{ opacity: 0, y: 5 }}
+                                      animate={{ opacity: 1, y: 0 }}
                                       transition={{ duration: 0.2, delay: serviceIndex * 0.05 }}
                                     >
                                       {service.name}
@@ -221,8 +221,8 @@ export default function Navigation() {
                                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-orange-500 transition-colors duration-200"
                                   >
                                     <motion.div
-                                      initial={{ opacity: 0, x: -10 }}
-                                      animate={{ opacity: 1, x: 0 }}
+                                      initial={{ opacity: 0, y: 5 }}
+                                      animate={{ opacity: 1, y: 0 }}
                                       transition={{ duration: 0.2, delay: sectorIndex * 0.05 }}
                                     >
                                       {sector.name}
@@ -257,8 +257,8 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-3">
             {/* Bouton téléphone */}
             <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3 }}
             >
               <Button 
@@ -281,8 +281,8 @@ export default function Navigation() {
 
             {/* Bouton CTA */}
             <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.4 }}
             >
               <Button 
@@ -377,7 +377,7 @@ export default function Navigation() {
                             damping: 25,
                             stiffness: 300
                           }}
-                          whileHover={{ x: 10 }}
+                          whileHover={{ y: -2 }}
                         >
                           {link.name}
                         </motion.a>
@@ -432,8 +432,8 @@ export default function Navigation() {
                         href={link.href}
                         className="block text-2xl font-medium text-foreground hover:text-primary transition-colors"
                         onClick={() => setIsOpen(false)}
-                        initial={{ opacity: 0, x: 50 }}
-                        animate={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
                         transition={{ 
                           delay: 0.1 + index * 0.1,
                           type: "spring",
@@ -536,9 +536,9 @@ export default function Navigation() {
           <div className="max-w-7xl mx-auto px-4 sm:p-6 lg:p-8 py-4 flex justify-end">
             <motion.div
               className="pointer-events-auto"
-              initial={{ opacity: 0, x: 100, y: -20 }}
-              animate={{ opacity: 1, x: 0, y: 0 }}
-              exit={{ opacity: 0, x: 100, y: -20 }}
+              initial={{ opacity: 0, y: -20, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: -20, scale: 0.95 }}
               transition={{ 
                 type: "spring", 
                 damping: 25, 

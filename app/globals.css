@@ -134,3 +134,25 @@
     max-width: 100vw;
   }
 }
+
+/* Contraintes spécifiques mobile */
+@media (max-width: 768px) {
+  * {
+    max-width: 100vw;
+    box-sizing: border-box;
+  }
+  
+  /* Sécurité pour les iframes (Google Maps, etc.) */
+  iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Sécurité pour les éléments en mouvement */
+  [data-framer-motion] {
+    max-width: 100vw;
+    box-sizing: border-box;
+  }
+}

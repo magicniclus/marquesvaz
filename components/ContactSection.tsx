@@ -46,8 +46,8 @@ export default function ContactSection({
           {/* Contact Information */}
           <motion.div
             className="space-y-8"
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
@@ -56,7 +56,7 @@ export default function ContactSection({
             {/* Address */}
             <motion.div
               className="flex items-start space-x-4 mb-6"
-              whileHover={{ x: 5 }}
+              whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.2 }}
             >
               <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
@@ -71,7 +71,7 @@ export default function ContactSection({
             {/* Phone */}
             <motion.div
               className="flex items-start space-x-4 mb-6"
-              whileHover={{ x: 5 }}
+              whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.2 }}
             >
               <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
@@ -92,7 +92,7 @@ export default function ContactSection({
             {contactInfo.email && (
               <motion.div
                 className="flex items-start space-x-4 mb-6"
-                whileHover={{ x: 5 }}
+                whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.2 }}
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
@@ -114,7 +114,7 @@ export default function ContactSection({
             {contactInfo.hours && (
               <motion.div
                 className="flex items-start space-x-4 mb-8"
-                whileHover={{ x: 5 }}
+                whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.2 }}
               >
                 <div className="flex-shrink-0 w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
@@ -152,8 +152,8 @@ export default function ContactSection({
           {/* Map */}
           <motion.div
             className="h-96 lg:h-full min-h-[400px]"
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >

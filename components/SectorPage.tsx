@@ -306,8 +306,8 @@ export default function SectorPage({
                     <motion.div
                       key={index}
                       className="flex items-center space-x-3"
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
+                      initial={{ opacity: 0, y: 10 }}
+                      whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: index * 0.1 }}
                     >
@@ -369,8 +369,8 @@ export default function SectorPage({
               {/* Contact rapide */}
               <motion.div
                 className="bg-gray-50 rounded-xl p-6"
-                initial={{ opacity: 0, x: 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
               >
@@ -398,8 +398,8 @@ export default function SectorPage({
               {/* Secteurs proches */}
               <motion.div
                 className="bg-gray-50 rounded-xl p-6"
-                initial={{ opacity: 0, x: 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
@@ -419,8 +419,8 @@ export default function SectorPage({
               {/* Informations pratiques */}
               <motion.div
                 className="bg-orange-50 rounded-xl p-6"
-                initial={{ opacity: 0, x: 20 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
