@@ -79,7 +79,7 @@ export default function RootLayout({
         </Script> */}
 
       </head>
-      <body className="antialiased" suppressHydrationWarning>
+      <body className="antialiased prevent-horizontal-scroll" suppressHydrationWarning>
         <Navigation />
         {children}
         <Footer />
