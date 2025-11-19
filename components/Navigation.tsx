@@ -70,14 +70,66 @@ export default function Navigation() {
 
   // Prevent body scroll when mobile menu is open
   useEffect(() => {
+    const preventScroll = (e: TouchEvent | WheelEvent) => {
+      // Permettre le scroll si l'événement vient du menu mobile
+      const target = e.target as Element;
+      const mobileMenu = document.querySelector('[data-mobile-menu]');
+      
+      if (mobileMenu && mobileMenu.contains(target)) {
+        return; // Permettre le scroll dans le menu mobile
+      }
+      
+      e.preventDefault();
+    };
+
     if (isOpen) {
+      // Sauvegarder la position de scroll actuelle
+      const scrollY = window.scrollY;
+      
+      // Empêcher le scroll du body en arrière-plan
       document.body.style.overflow = 'hidden';
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.width = '100%';
+      document.body.style.height = '100%';
+      
+      // Stocker la position pour la restaurer plus tard
+      document.body.setAttribute('data-scroll-y', scrollY.toString());
+      
+      // Ajouter des event listeners pour empêcher le scroll
+      document.addEventListener('touchmove', preventScroll, { passive: false });
+      document.addEventListener('wheel', preventScroll, { passive: false });
     } else {
-      document.body.style.overflow = 'unset';
+      // Restaurer le scroll normal
+      const scrollY = document.body.getAttribute('data-scroll-y');
+      
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      document.body.style.height = '';
+      document.body.removeAttribute('data-scroll-y');
+      
+      // Supprimer les event listeners
+      document.removeEventListener('touchmove', preventScroll);
+      document.removeEventListener('wheel', preventScroll);
+      
+      // Restaurer la position de scroll
+      if (scrollY) {
+        window.scrollTo(0, parseInt(scrollY));
+      }
     }
     
     return () => {
-      document.body.style.overflow = 'unset';
+      // Cleanup au cas où le composant se démonte
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.top = '';
+      document.body.style.width = '';
+      document.body.style.height = '';
+      document.body.removeAttribute('data-scroll-y');
+      document.removeEventListener('touchmove', preventScroll);
+      document.removeEventListener('wheel', preventScroll);
     };
   }, [isOpen]);
 
@@ -325,13 +377,14 @@ export default function Navigation() {
     <AnimatePresence>
       {isOpen && (
         <motion.div
-          className="fixed inset-0 z-[100] bg-background md:hidden"
+          className="fixed inset-0 z-[100] bg-background md:hidden overflow-y-auto"
+          data-mobile-menu
           initial={{ x: "100%" }}
           animate={{ x: 0 }}
           exit={{ x: "100%" }}
           transition={{ type: "spring", damping: 30, stiffness: 300 }}
         >
-          <div className="flex flex-col h-full">
+          <div className="flex flex-col min-h-full">
             {/* Header with close button */}
             <div className="flex justify-between items-center p-6 border-b">
               <div className="flex items-center">
@@ -359,7 +412,7 @@ export default function Navigation() {
             </div>
 
             {/* Navigation Links */}
-            <div className="px-6 pt-8">
+            <div className="px-6 pt-8 flex-1 overflow-y-auto">
               <div className="space-y-6">
                 {navigationLinks.map((link, index) => (
                   <div key={link.name}>
