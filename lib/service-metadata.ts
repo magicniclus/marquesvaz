@@ -8,16 +8,16 @@ export function generateServiceMetadata(
   description: string,
   keywords: string[]
 ): Metadata {
-  const title = `${serviceName} ${location} - RAFCOM | Devis Gratuit`;
-  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez RAFCOM.`;
+  const title = `${serviceName} ${location} - MARQUES VAZ PLACO | Devis Gratuit`;
+  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de ${serviceName.toLowerCase()} à ${location}. Contactez MARQUES VAZ PLACO.`;
 
   return {
     title,
     description: metaDescription,
-    keywords: [...keywords, 'devis gratuit', 'RAFCOM', location].join(', '),
-    authors: [{ name: 'RAFCOM' }],
-    creator: 'RAFCOM',
-    publisher: 'RAFCOM',
+    keywords: [...keywords, 'devis gratuit', 'MARQUES VAZ PLACO', location].join(', '),
+    authors: [{ name: 'MARQUES VAZ PLACO' }],
+    creator: 'MARQUES VAZ PLACO',
+    publisher: 'MARQUES VAZ PLACO',
     formatDetection: {
       email: false,
       address: false,

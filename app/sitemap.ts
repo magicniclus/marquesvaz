@@ -5,14 +5,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = seoConfig.siteUrl;
   const currentDate = new Date().toISOString();
 
-  // Secteurs géographiques
+  // Secteurs géographiques Marseille et PACA
   const sectors = [
-    'paris-20e', 'montreuil', 'vincennes', 'bagnolet', 'saint-mande',
-    'fontenay-sous-bois', 'pantin', 'les-lilas', 'nogent-sur-marne', 'rosny-sous-bois'
+    'plaquiste-marseille-13', 'plaquiste-marseille-01', 'plaquiste-marseille-02', 
+    'plaquiste-marseille-03', 'plaquiste-marseille-04', 'plaquiste-marseille-06',
+    'plaquiste-marseille-07', 'plaquiste-marseille-08', 'plaquiste-marseille-09',
+    'plaquiste-marseille-11', 'plaquiste-marseille-12', 'plaquiste-marseille-14',
+    'plaquiste-aix-en-provence', 'plaquiste-aubagne', 'plaquiste-martigues',
+    'plaquiste-salon-de-provence', 'plaquiste-istres', 'plaquiste-vitrolles',
+    'plaquiste-cassis', 'plaquiste-la-ciotat', 'plaquiste-gardanne'
   ];
 
-  // Services spécialisés
-  const services = ['renovation', 'peinture', 'pose-parquet'];
+  // Services spécialisés plaquiste
+  const services = ['cloisons-seches', 'doublage-isolation', 'faux-plafonds', 'finitions-bandes', 'renovation-placo'];
 
   const sitemapEntries: MetadataRoute.Sitemap = [
     // Page d'accueil
@@ -100,15 +105,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Ajouter toutes les pages secteurs spécialisées
+  // Ajouter toutes les pages secteurs existantes
   sectors.forEach(sector => {
-    services.forEach(service => {
-      sitemapEntries.push({
-        url: `${baseUrl}/secteur/${service}-${sector}`,
-        lastModified: currentDate,
-        changeFrequency: 'monthly',
-        priority: 0.85, // Priorité élevée pour les pages géolocalisées
-      });
+    sitemapEntries.push({
+      url: `${baseUrl}/secteur/${sector}`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly',
+      priority: 0.85, // Priorité élevée pour les pages géolocalisées
     });
   });
 

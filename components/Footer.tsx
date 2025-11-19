@@ -20,23 +20,23 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Travaux Fibre', href: '/services/travaux-fibre' },
-    { name: 'Fourreau Bouché', href: '/services/fourreau-bouche' },
-    { name: 'Détection de Point de Blocage', href: '/services/detection-blocage' },
-    { name: 'Raccordement Fibre Complexe', href: '/services/raccordement-complexe' },
-    { name: 'Urgence Fibre', href: '/services/urgence-fibre' },
+    { name: 'Cloisons Sèches', href: '/services/cloisons-seches' },
+    { name: 'Doublage et Isolation', href: '/services/doublage-isolation' },
+    { name: 'Faux Plafonds', href: '/services/faux-plafonds' },
+    { name: 'Finitions et Bandes', href: '/services/finitions-bandes' },
+    { name: 'Rénovation Placo', href: '/services/renovation-placo' },
   ];
 
   const sectorsLinks = [
-    { name: 'Paris (75)', href: '/secteur/fibre-paris-75' },
-    { name: 'Seine-Maritime (76)', href: '/secteur/fibre-seine-maritime-76' },
-    { name: 'Seine-et-Marne (77)', href: '/secteur/fibre-seine-et-marne-77' },
-    { name: 'Yvelines (78)', href: '/secteur/fibre-yvelines-78' },
-    { name: 'Essonne (91)', href: '/secteur/fibre-essonne-91' },
-    { name: 'Hauts-de-Seine (92)', href: '/secteur/fibre-hauts-de-seine-92' },
-    { name: 'Seine-Saint-Denis (93)', href: '/secteur/fibre-seine-saint-denis-93' },
-    { name: 'Val-de-Marne (94)', href: '/secteur/fibre-val-de-marne-94' },
-    { name: 'Val-d\'Oise (95)', href: '/secteur/fibre-val-d-oise-95' },
+    { name: 'Marseille (13)', href: '/secteur/plaquiste-marseille-13' },
+    { name: 'Aix-en-Provence', href: '/secteur/plaquiste-aix-en-provence' },
+    { name: 'Aubagne', href: '/secteur/plaquiste-aubagne' },
+    { name: 'Martigues', href: '/secteur/plaquiste-martigues' },
+    { name: 'Salon-de-Provence', href: '/secteur/plaquiste-salon-de-provence' },
+    { name: 'Istres', href: '/secteur/plaquiste-istres' },
+    { name: 'Vitrolles', href: '/secteur/plaquiste-vitrolles' },
+    { name: 'Cassis', href: '/secteur/plaquiste-cassis' },
+    { name: 'La Ciotat', href: '/secteur/plaquiste-la-ciotat' },
     { name: 'Voir tous nos secteurs', href: '/secteur' },
   ];
 
@@ -56,13 +56,13 @@ export default function Footer() {
             >
               <div className="flex items-center">
                 <motion.div 
-                  className="w-16 h-16 rounded-lg bg-white flex items-center justify-center shadow-lg overflow-hidden"
+                  className="w-16 h-16 rounded-lg flex items-center justify-center overflow-hidden"
                   whileHover={{ rotate: 5 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
                     src="/logo.png" 
-                    alt="Logo RAFCOM" 
+                    alt="Logo MARQUES VAZ PLACO" 
                     width={56} 
                     height={56} 
                     className="object-contain"
@@ -70,13 +70,13 @@ export default function Footer() {
                 </motion.div>
               </div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                Spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes et urgences fibre en Île-de-France.
+                Entrepreneur du bâtiment spécialisé dans les travaux de plaquiste : cloisons sèches, doublage, faux plafonds, finitions et rénovation à Marseille et région PACA.
               </p>
               <a 
-                href="tel:0783490136" 
+                href="tel:0659764995" 
                 className="text-primary hover:text-primary/80 text-sm font-medium transition-colors"
               >
-                07 83 49 01 36
+                06 59 76 49 95
               </a>
             </motion.div>
 
@@ -161,11 +161,11 @@ export default function Footer() {
               <h3 className="text-lg font-semibold">Contact</h3>
               <div className="space-y-2">
                 <a 
-                  href="tel:0783490136"
+                  href="tel:0659764995"
                   className="text-slate-300 hover:text-white text-sm transition-colors duration-200 block flex items-center space-x-2"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>07 83 49 01 36</span>
+                  <span>06 59 76 49 95</span>
                 </a>
                 <p className="text-slate-400 text-xs">
                   Service gratuit 7j/7 de 9h à 19h
@@ -186,7 +186,7 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
             >
-              © {currentYear} RAFCOM. Tous droits réservés.
+              © {currentYear} MARQUES VAZ PLACO. Tous droits réservés.
             </motion.p>
 
             {/* Powered by */}

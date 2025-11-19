@@ -52,10 +52,10 @@ export default function CGVClient() {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre 
-                  RAFCOM, SASU (Société par Actions Simplifiée Unipersonnelle), immatriculée au RCS de Paris 
-                  sous le numéro SIRET 991 943 010 00017, dont le siège social est situé 200 rue de la Croix Nivert, 75015 Paris, 
-                  ci-après dénommée « RAFCOM » ou « la Société », et toute personne physique ou morale, 
-                  ci-après dénommée « le Client », souhaitant bénéficier des services de travaux fibre optique proposés.
+                  MARQUES VAZ PLACO, Entrepreneur individuel, immatriculé sous le numéro SIRET 920 961 729 00018, 
+                  dont l'adresse est située 9 RUE GARNIER, 13010 MARSEILLE, 
+                  ci-après dénommée « MARQUES VAZ PLACO » ou « l'Entreprise », et toute personne physique ou morale, 
+                  ci-après dénommée « le Client », souhaitant bénéficier des services de travaux de plaquiste proposés.
                 </p>
                 <p>
                   L'acceptation des présentes CGV est matérialisée par la validation de toute commande ou demande de service. 
@@ -69,17 +69,17 @@ export default function CGVClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Article 1 - Objet</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  RAFCOM est une entreprise spécialisée dans les travaux de fibre optique et télécommunications. 
-                  La Société propose les services suivants :
+                  MARQUES VAZ PLACO est une entreprise spécialisée dans les travaux de plaquiste et d'aménagement intérieur. 
+                  L'Entreprise propose les services suivants :
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Installation et maintenance de réseaux fibre optique</li>
-                  <li>Débouchage de fourreaux télécommunications</li>
-                  <li>Détection et localisation de points de blocage</li>
-                  <li>Raccordements fibre optique complexes</li>
-                  <li>Interventions d'urgence fibre 24h/24</li>
+                  <li>Pose et installation de cloisons sèches en plaques de plâtre</li>
+                  <li>Doublage des murs avec isolation thermique et phonique</li>
+                  <li>Installation de faux plafonds suspendus</li>
+                  <li>Finitions et pose de bandes de joints</li>
+                  <li>Rénovation et réparation de cloisons existantes</li>
                   <li>Établissement de devis gratuits et personnalisés</li>
-                  <li>Expertise technique spécialisée en télécommunications</li>
+                  <li>Expertise technique spécialisée en plâtrerie</li>
                 </ul>
               </div>
             </div>
@@ -94,7 +94,7 @@ export default function CGVClient() {
                 </p>
                 <p>
                   Le devis est valable 30 jours à compter de sa date d'émission. Passé ce délai, 
-                  RAFCOM se réserve le droit de modifier les prix proposés.
+                  MARQUES VAZ PLACO se réserve le droit de modifier les prix proposés.
                 </p>
                 <p>
                   L'acceptation du devis par le Client, matérialisée par sa signature et le versement de l'acompte éventuel, 

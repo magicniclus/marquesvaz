@@ -21,32 +21,32 @@ export default function Navigation() {
   const [showSectorsDropdown, setShowSectorsDropdown] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
-  const phoneNumber = "07 83 49 01 36";
+  const phoneNumber = "06 59 76 49 95";
 
   // Détecter si on est sur la page d'accueil
   const isHomePage = pathname === '/';
 
   // Liste des services pour le dropdown
   const servicesLinks = [
-    { name: 'Travaux Fibre', href: '/services/travaux-fibre' },
-    { name: 'Fourreau Bouché', href: '/services/fourreau-bouche' },
-    { name: 'Détection de Point de Blocage', href: '/services/detection-blocage' },
-    { name: 'Raccordement Fibre Complexe', href: '/services/raccordement-complexe' },
-    { name: 'Urgence Fibre', href: '/services/urgence-fibre' },
+    { name: 'Cloisons Sèches', href: '/services/cloisons-seches' },
+    { name: 'Doublage et Isolation', href: '/services/doublage-isolation' },
+    { name: 'Faux Plafonds', href: '/services/faux-plafonds' },
+    { name: 'Finitions et Bandes', href: '/services/finitions-bandes' },
+    { name: 'Rénovation Placo', href: '/services/renovation-placo' },
   ];
 
   // Liste des secteurs pour le dropdown
   const sectorsLinks = [
-    { name: 'Paris (75)', href: '/secteur/fibre-paris-75' },
-    { name: 'Paris 15ème', href: '/secteur/fibre-paris-15' },
-    { name: 'Paris 14ème', href: '/secteur/fibre-paris-14' },
-    { name: 'Hauts-de-Seine (92)', href: '/secteur/fibre-hauts-de-seine-92' },
-    { name: 'Seine-Saint-Denis (93)', href: '/secteur/fibre-seine-saint-denis-93' },
-    { name: 'Val-de-Marne (94)', href: '/secteur/fibre-val-de-marne-94' },
-    { name: 'Val-d\'Oise (95)', href: '/secteur/fibre-val-d-oise-95' },
-    { name: 'Cergy', href: '/secteur/fibre-cergy' },
-    { name: 'Évry-Courcouronnes', href: '/secteur/fibre-evry-courcouronnes' },
-    { name: 'Meaux', href: '/secteur/fibre-meaux' },
+    { name: 'Marseille (13)', href: '/secteur/plaquiste-marseille-13' },
+    { name: 'Aix-en-Provence', href: '/secteur/plaquiste-aix-en-provence' },
+    { name: 'Aubagne', href: '/secteur/plaquiste-aubagne' },
+    { name: 'Martigues', href: '/secteur/plaquiste-martigues' },
+    { name: 'Salon-de-Provence', href: '/secteur/plaquiste-salon-de-provence' },
+    { name: 'Istres', href: '/secteur/plaquiste-istres' },
+    { name: 'Vitrolles', href: '/secteur/plaquiste-vitrolles' },
+    { name: 'Cassis', href: '/secteur/plaquiste-cassis' },
+    { name: 'La Ciotat', href: '/secteur/plaquiste-la-ciotat' },
+    { name: 'Gardanne', href: '/secteur/plaquiste-gardanne' },
     { name: 'Voir tous nos secteurs', href: '/secteur' },
   ];
 
@@ -112,15 +112,15 @@ export default function Navigation() {
           >
             <Link href="/" className="flex items-center">
               <motion.div 
-                className="w-20 h-20 rounded-xl flex items-center justify-center overflow-hidden"
+                className="w-16 h-16 bg-slate-900 rounded-lg flex items-center justify-center overflow-hidden my-2"
                 whileHover={{ rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Image 
                   src="/logo.png" 
-                  alt="Logo RAFCOM" 
-                  width={72} 
-                  height={72} 
+                  alt="Logo MARQUES VAZ PLACO" 
+                  width={56} 
+                  height={56} 
                   className="object-contain"
                 />
               </motion.div>
@@ -336,15 +336,15 @@ export default function Navigation() {
             <div className="flex justify-between items-center p-6 border-b">
               <div className="flex items-center">
                 <motion.div 
-                  className="w-16 h-16 rounded-xl flex items-center justify-center shadow-lg overflow-hidden"
+                  className="w-14 h-14 bg-slate-900 rounded-lg flex items-center justify-center shadow-lg overflow-hidden"
                   whileHover={{ rotate: 5 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <Image 
                     src="/logo.png" 
-                    alt="Logo RAFCOM" 
-                    width={56} 
-                    height={56} 
+                    alt="Logo MARQUES VAZ PLACO" 
+                    width={48} 
+                    height={48} 
                     className="object-contain"
                   />
                 </motion.div>

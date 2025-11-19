@@ -5,12 +5,12 @@ import Footer from "../components/Footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "RAFCOM - Spécialiste Travaux Fibre Optique Paris | Urgence Fibre 24h/24",
-  description: "RAFCOM, spécialiste des travaux fibre optique en Île-de-France : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre. Intervention rapide Paris 75015.",
-  keywords: "travaux fibre optique Paris, fourreau bouché Paris, détection point blocage fibre, raccordement fibre complexe, urgence fibre Paris, débouchage fourreaux télécom, RAFCOM, fibre optique 75015, entrepreneur fibre optique",
-  authors: [{ name: "RAFCOM" }],
-  creator: "RAFCOM",
-  publisher: "RAFCOM",
+  title: "MARQUES VAZ PLACO - Spécialiste Plaquiste Marseille | Cloisons Sèches PACA",
+  description: "MARQUES VAZ PLACO, spécialiste plaquiste à Marseille : cloisons sèches, doublage isolation, faux plafonds, finitions et rénovation placo. Intervention rapide en région PACA.",
+  keywords: "plaquiste Marseille, cloisons sèches Marseille, doublage isolation PACA, faux plafonds Marseille, finitions placo, rénovation placo, MARQUES VAZ PLACO, entrepreneur plaquiste",
+  authors: [{ name: "MARQUES VAZ PLACO" }],
+  creator: "MARQUES VAZ PLACO",
+  publisher: "MARQUES VAZ PLACO",
   formatDetection: {
     email: false,
     address: false,
@@ -21,16 +21,16 @@ export const metadata: Metadata = {
     canonical: "https://rafcom.net",
   },
   openGraph: {
-    title: "RAFCOM - Spécialiste Travaux Fibre Optique Paris",
-    description: "RAFCOM, spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre en Île-de-France.",
-    url: "https://rafcom.net",
-    siteName: "RAFCOM - Spécialiste Fibre Optique",
+    title: "MARQUES VAZ PLACO - Spécialiste Plaquiste Marseille",
+    description: "MARQUES VAZ PLACO, spécialiste plaquiste : cloisons sèches, doublage isolation, faux plafonds, finitions et rénovation placo en région PACA.",
+    url: "https://marquesvazplaco.fr",
+    siteName: "MARQUES VAZ PLACO - Spécialiste Plaquiste",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "RAFCOM - Spécialiste Travaux Fibre Optique Paris",
+        alt: "MARQUES VAZ PLACO - Spécialiste Plaquiste Marseille",
       },
     ],
     locale: "fr_FR",
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "RAFCOM - Spécialiste Fibre Optique",
-    description: "Spécialiste des travaux fibre optique : débouchage fourreaux, détection points de blocage, raccordements complexes, urgences fibre en Île-de-France.",
+    title: "MARQUES VAZ PLACO - Spécialiste Plaquiste",
+    description: "Spécialiste plaquiste : cloisons sèches, doublage isolation, faux plafonds, finitions et rénovation placo en région PACA.",
     images: ["/og-image.jpg"],
   },
   robots: {

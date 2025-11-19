@@ -13,7 +13,7 @@ interface TeamSectionProps {
 
 export default function TeamSection({
   config,
-  title = "Notre Équipe",
+  title = "Qui suis-je",
   subtitle = "Des professionnels passionnés à votre service",
   members = []
 }: TeamSectionProps) {

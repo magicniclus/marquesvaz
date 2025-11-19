@@ -1,0 +1,41 @@
+{
+  "id": "yMyCfKu2CIBKsrEONR5B",
+  "informationsPersonnelles": {
+    "nom": "vaz",
+    "prenom": "AMILTON",
+    "email": "amiltonvazmarques@gmail.com",
+    "telephone": "0659764995",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1761816170,
+      "nanoseconds": 417000000
+    },
+    "rgpd": true,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "Marques vaz placo ",
+    "entreprise": "Marques vaz placo ",
+    "metier": "Plaquiste",
+    "secteurActivite": "Provence-Alpes-Côte d'Azur, marseille,",
+    "raisonSociale": "Auto-entrepreneur",
+    "anneeCreation": "2015",
+    "nombreCollaborateurs": "1",
+    "prestation": "Plaquiste",
+    "rayonIntervention": "80",
+    "certifications": "",
+    "garanties": "Assurances",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-10-31T08:48:10.840Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

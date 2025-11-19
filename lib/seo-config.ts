@@ -14,30 +14,30 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "RAFCOM - Spécialiste Travaux Fibre Optique à Paris",
-  description: "RAFCOM, spécialiste des travaux fibre optique : débouchage fourreaux, détection blocages, raccordements complexes et urgences fibre en Île-de-France. Devis gratuit.",
+  title: "MARQUES VAZ PLACO - Spécialiste Plaquiste à Marseille",
+  description: "Marques Vaz Placo, entrepreneur du bâtiment spécialisé en travaux de plaquiste : cloisons sèches, doublage, faux plafonds, finitions à Marseille et région PACA. Devis gratuit.",
   keywords: [
-    "travaux fibre optique Paris",
-    "débouchage fourreaux Paris",
-    "détection point blocage fibre",
-    "raccordement fibre complexe",
-    "urgence fibre optique",
-    "travaux télécommunications Paris",
-    "RAFCOM",
-    "fibre optique Île-de-France",
-    "entrepreneur fibre optique",
-    "devis gratuit fibre",
-    "spécialiste fibre optique",
-    "installation fibre optique",
-    "maintenance fibre optique"
+    "plaquiste Marseille",
+    "cloisons sèches Marseille",
+    "doublage murs Marseille",
+    "faux plafonds Marseille",
+    "finitions placo Marseille",
+    "travaux plaquiste PACA",
+    "MARQUES VAZ PLACO",
+    "placo Provence-Alpes-Côte d'Azur",
+    "entrepreneur plaquiste Marseille",
+    "devis gratuit plaquiste",
+    "spécialiste placo Marseille",
+    "rénovation placo Marseille",
+    "isolation thermique Marseille"
   ],
-  author: "RAFCOM",
-  siteUrl: "https://rafcom.net",
-  siteName: "RAFCOM - Spécialiste Travaux Fibre Optique",
+  author: "MARQUES VAZ PLACO",
+  siteUrl: "https://marquesvazplaco.fr",
+  siteName: "MARQUES VAZ PLACO - Spécialiste Plaquiste Marseille",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
-  twitterHandle: "@rafcom"
+  twitterHandle: "@marquesvazplaco"
 };
 
 export function generateMetadata(
@@ -114,63 +114,63 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "RAFCOM",
-  "legalName": "RAFCOM - Spécialiste Travaux Fibre Optique",
+  "name": "MARQUES VAZ PLACO",
+  "legalName": "Marques Vaz Placo - Spécialiste plaquiste à Marseille",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Rafik Hamel"
+    "name": "Amilton Vaz"
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "200 rue de la Croix Nivert",
-    "addressLocality": "Paris",
-    "postalCode": "75015",
-    "addressRegion": "Île-de-France",
+    "streetAddress": "Marseille",
+    "addressLocality": "Marseille",
+    "postalCode": "13000",
+    "addressRegion": "Provence-Alpes-Côte d'Azur",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "0783490136",
+    "telephone": "0659764995",
     "contactType": "customer service",
-    "email": "contact@rafcomm.fr",
+    "email": "amiltonvazmarques@gmail.com",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "Île-de-France"
+      "name": "Provence-Alpes-Côte d'Azur"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Paris"
+      "name": "Bouches-du-Rhône"
     },
     {
       "@type": "City",
-      "name": "Paris 20e"
+      "name": "Marseille"
     },
     {
       "@type": "City",
-      "name": "Belleville"
+      "name": "Aix-en-Provence"
     },
     {
       "@type": "City",
-      "name": "Ménilmontant"
+      "name": "Aubagne"
     }
   ],
   "serviceType": [
-    "Travaux Fibre Optique",
-    "Débouchage Fourreaux Télécommunications", 
-    "Détection Points de Blocage",
-    "Raccordements Fibre Complexes",
-    "Interventions d'Urgence Fibre",
-    "Installation Fibre Optique",
-    "Maintenance Réseaux Fibre",
-    "Télécommunications",
-    "Expertise Technique Fibre"
+    "Travaux de Plaquiste",
+    "Cloisons Sèches", 
+    "Doublage et Isolation",
+    "Faux Plafonds",
+    "Finitions et Bandes",
+    "Rénovation Placo",
+    "Isolation Thermique",
+    "Isolation Phonique",
+    "Aménagement Intérieur"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Sa 08:00-18:00",
@@ -190,46 +190,22 @@ export const servicesSchema = {
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de rénovation",
+    "name": "Services de plaquiste",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Peinture et Ravalement",
-          "description": "Spécialisés en peinture générale et ravalement, intérieur et extérieur"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service", 
-          "name": "Électricité et Plomberie",
-          "description": "Installation et rénovation électricité et plomberie, conformes aux normes"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service", 
-          "name": "Rénovation globale",
-          "description": "Transformations et nettoyage, rénovation complète de vos espaces"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service", 
           "name": "Cloisons Sèches",
-          "description": "Installation de cloisons sèches et aménagement d'espaces intérieurs"
+          "description": "Pose professionnelle de cloisons sèches en plaques de plâtre pour création d'espaces et séparation de pièces"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Doublages et Isolation",
-          "description": "Doublages et isolation thermique et phonique de vos murs"
+          "name": "Doublage et Isolation",
+          "description": "Doublage professionnel des murs avec isolation thermique et phonique pour améliorer le confort"
         }
       },
       {
@@ -237,15 +213,23 @@ export const servicesSchema = {
         "itemOffered": {
           "@type": "Service", 
           "name": "Faux Plafonds",
-          "description": "Installation de faux plafonds et plafonds suspendus avec intégration d'éclairage"
+          "description": "Installation de faux plafonds suspendus avec intégration d'éclairage et isolation"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Finitions Plâtrerie",
-          "description": "Finitions plâtrerie, enduits, lissage et préparation surfaces"
+          "name": "Finitions et Bandes",
+          "description": "Réalisation de finitions parfaites avec pose de bandes, enduits et préparation pour peinture"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Rénovation Placo",
+          "description": "Réparation et rénovation de cloisons existantes, remise en état et modernisation"
         }
       }
     ]

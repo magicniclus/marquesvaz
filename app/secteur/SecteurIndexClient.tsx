@@ -6,28 +6,34 @@ import { MapPin, ChevronRight, Star, Building2, Phone } from 'lucide-react';
 import Breadcrumb from '@/components/Breadcrumb';
 
 const sectors = [
-  { name: 'Paris (75)', slug: 'fibre-paris-75' },
-  { name: 'Paris 15ème', slug: 'fibre-paris-15' },
-  { name: 'Paris 14ème', slug: 'fibre-paris-14' },
-  { name: 'Seine-Maritime (76)', slug: 'fibre-seine-maritime-76' },
-  { name: 'Seine-et-Marne (77)', slug: 'fibre-seine-et-marne-77' },
-  { name: 'Yvelines (78)', slug: 'fibre-yvelines-78' },
-  { name: 'Essonne (91)', slug: 'fibre-essonne-91' },
-  { name: 'Hauts-de-Seine (92)', slug: 'fibre-hauts-de-seine-92' },
-  { name: 'Seine-Saint-Denis (93)', slug: 'fibre-seine-saint-denis-93' },
-  { name: 'Val-de-Marne (94)', slug: 'fibre-val-de-marne-94' },
-  { name: 'Val-d\'Oise (95)', slug: 'fibre-val-d-oise-95' },
-  { name: 'Eure-et-Loir (28)', slug: 'fibre-eure-et-loir-28' },
-  { name: 'Eure (27)', slug: 'fibre-eure-27' },
-  { name: 'Oise (60)', slug: 'fibre-oise-60' },
-  { name: 'Pas-de-Calais (62)', slug: 'fibre-pas-de-calais-62' },
-  { name: 'Nord (59)', slug: 'fibre-nord-59' },
-  { name: 'Loiret (45)', slug: 'fibre-loiret-45' },
-  { name: 'Cergy', slug: 'fibre-cergy' },
-  { name: 'Évry-Courcouronnes', slug: 'fibre-evry-courcouronnes' },
-  { name: 'Meaux', slug: 'fibre-meaux' },
-  { name: 'Poissy', slug: 'fibre-poissy' },
-  { name: 'Chelles', slug: 'fibre-chelles' }
+  { name: 'Marseille (13)', slug: 'plaquiste-marseille-13' },
+  { name: 'Marseille 1er', slug: 'plaquiste-marseille-01' },
+  { name: 'Marseille 2ème', slug: 'plaquiste-marseille-02' },
+  { name: 'Marseille 3ème', slug: 'plaquiste-marseille-03' },
+  { name: 'Marseille 4ème', slug: 'plaquiste-marseille-04' },
+  { name: 'Marseille 6ème', slug: 'plaquiste-marseille-06' },
+  { name: 'Marseille 7ème', slug: 'plaquiste-marseille-07' },
+  { name: 'Marseille 8ème', slug: 'plaquiste-marseille-08' },
+  { name: 'Marseille 9ème', slug: 'plaquiste-marseille-09' },
+  { name: 'Marseille 11ème', slug: 'plaquiste-marseille-11' },
+  { name: 'Marseille 12ème', slug: 'plaquiste-marseille-12' },
+  { name: 'Marseille 14ème', slug: 'plaquiste-marseille-14' },
+  { name: 'Aix-en-Provence', slug: 'plaquiste-aix-en-provence' },
+  { name: 'Aubagne', slug: 'plaquiste-aubagne' },
+  { name: 'Martigues', slug: 'plaquiste-martigues' },
+  { name: 'Salon-de-Provence', slug: 'plaquiste-salon-de-provence' },
+  { name: 'Istres', slug: 'plaquiste-istres' },
+  { name: 'Vitrolles', slug: 'plaquiste-vitrolles' },
+  { name: 'Cassis', slug: 'plaquiste-cassis' },
+  { name: 'La Ciotat', slug: 'plaquiste-la-ciotat' },
+  { name: 'Gardanne', slug: 'plaquiste-gardanne' },
+  { name: 'Carnoux-en-Provence', slug: 'plaquiste-carnoux-en-provence' },
+  { name: 'La Penne-sur-Huveaune', slug: 'plaquiste-la-penne-sur-huveaune' },
+  { name: 'Roquevaire', slug: 'plaquiste-roquevaire' },
+  { name: 'Gémenos', slug: 'plaquiste-gemenos' },
+  { name: 'Roquefort-la-Bédoule', slug: 'plaquiste-roquefort-la-bedoule' },
+  { name: 'Allauch', slug: 'plaquiste-allauch' },
+  { name: 'La Destrousse', slug: 'plaquiste-la-destrousse' }
 ];
 
 export default function SecteurIndexClient() {
@@ -50,25 +56,25 @@ export default function SecteurIndexClient() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Nos secteurs d'intervention fibre
+              Nos secteurs d'intervention plaquiste
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
-              Découvrez nos prestations de travaux fibre optique en Île-de-France : 
-              débouchage fourreaux, détection blocages, raccordements complexes et urgences.
+              Découvrez nos prestations de plaquiste en Provence-Alpes-Côte d'Azur : 
+              cloisons sèches, doublage, faux plafonds, finitions et rénovation placo.
             </p>
             
             <div className="flex flex-wrap justify-center items-center gap-4 mb-8">
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <MapPin className="h-5 w-5 text-orange-300" />
-                <span className="text-sm font-medium">Île-de-France</span>
+                <span className="text-sm font-medium">Provence-Alpes-Côte d'Azur</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Star className="h-5 w-5 text-yellow-300" />
-                <span className="text-sm font-medium">22 secteurs couverts</span>
+                <span className="text-sm font-medium">28 secteurs couverts</span>
               </div>
               <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <Building2 className="h-5 w-5 text-green-300" />
-                <span className="text-sm font-medium">Spécialiste fibre optique</span>
+                <span className="text-sm font-medium">Spécialiste plaquiste</span>
               </div>
             </div>
           </div>
@@ -83,7 +89,7 @@ export default function SecteurIndexClient() {
               Choisissez votre secteur
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Cliquez sur votre secteur pour découvrir nos prestations fibre optique spécialisées dans votre zone.
+              Cliquez sur votre secteur pour découvrir nos prestations de plaquiste spécialisées dans votre zone.
             </p>
           </div>
 
@@ -106,7 +112,7 @@ export default function SecteurIndexClient() {
                     <ChevronRight className="h-5 w-5 text-gray-400 group-hover:text-orange-600 group-hover:translate-x-1 transition-all duration-200" />
                   </div>
                   <p className="text-sm text-gray-600 mt-2">
-                    Travaux fibre, débouchage fourreaux, urgences
+                    Cloisons sèches, doublage, faux plafonds, finitions
                   </p>
                 </Link>
               </motion.div>
@@ -122,7 +128,7 @@ export default function SecteurIndexClient() {
             Votre secteur n'est pas listé ?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Nous intervenons sur toute l'Île-de-France pour vos travaux fibre optique. 
+            Nous intervenons sur toute la région PACA pour vos travaux de plaquiste. 
             Contactez-nous pour connaître nos possibilités d'intervention dans votre secteur.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -133,11 +139,11 @@ export default function SecteurIndexClient() {
               Nous contacter
             </Link>
             <Link
-              href="tel:0783490136"
+              href="tel:0659764995"
               className="inline-flex items-center justify-center px-6 py-3 bg-white text-gray-900 font-semibold rounded-lg border border-gray-300 hover:bg-gray-50 transition-colors duration-200"
             >
               <Phone className="h-4 w-4 mr-2" />
-              07 83 49 01 36
+              06 59 76 49 95
             </Link>
           </div>
         </div>

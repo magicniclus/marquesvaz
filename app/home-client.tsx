@@ -23,57 +23,57 @@ export default function HomeClient() {
   
   const servicesData = [
     {
-      title: "Travaux Fibre",
-      subtitle: "Installation et maintenance fibre optique",
-      content: "Installation, maintenance et réparation de réseaux fibre optique. Interventions techniques spécialisées pour particuliers et professionnels en Île-de-France.",
+      title: "Cloisons Sèches",
+      subtitle: "Pose et installation de cloisons",
+      content: "Pose professionnelle de cloisons sèches en plaques de plâtre. Création d'espaces, séparation de pièces et aménagement intérieur pour particuliers et professionnels à Marseille.",
       image: "/prestation-1.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/travaux-fibre"
+      href: "/services/cloisons-seches"
     },
     {
-      title: "Fourreau Bouché",
-      subtitle: "Débouchage de fourreaux télécom",
-      content: "Débouchage professionnel de fourreaux télécommunications. Techniques spécialisées pour libérer les conduits obstrués et permettre le passage de la fibre optique.",
+      title: "Doublage et Isolation",
+      subtitle: "Doublage des murs et isolation",
+      content: "Doublage professionnel des murs avec isolation thermique et phonique. Amélioration du confort et de l'efficacité énergétique de votre habitat.",
       image: "/prestation-2.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/fourreau-bouche"
+      href: "/services/doublage-isolation"
     },
     {
-      title: "Détection de Point de Blocage",
-      subtitle: "Localisation précise des obstructions",
-      content: "Détection et localisation précise des points de blocage dans les réseaux de télécommunications. Diagnostic technique avancé pour identifier les problèmes.",
+      title: "Faux Plafonds",
+      subtitle: "Installation de faux plafonds",
+      content: "Installation de faux plafonds suspendus en plaques de plâtre. Amélioration esthétique et technique avec intégration d'éclairage et isolation.",
       image: "/prestation-3.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/detection-blocage"
+      href: "/services/faux-plafonds"
     },
     {
-      title: "Raccordement Fibre Complexe",
-      subtitle: "Solutions techniques avancées",
-      content: "Raccordements fibre optique complexes et techniques. Expertise pour les installations difficiles nécessitant des compétences spécialisées.",
+      title: "Finitions et Bandes",
+      subtitle: "Finitions parfaites et bandes",
+      content: "Réalisation de finitions parfaites avec pose de bandes, enduits et préparation pour peinture. Travail soigné pour un résultat impeccable.",
       image: "/prestation-4.png",
       gradientFrom: "#e74c3c",
       gradientTo: "#f39c12",
-      href: "/services/raccordement-complexe"
+      href: "/services/finitions-bandes"
     },
     {
-      title: "Urgence Fibre",
-      subtitle: "Intervention rapide 24h/24",
-      content: "Interventions d'urgence fibre optique. Service réactif pour résoudre rapidement vos pannes et problèmes de connexion fibre.",
+      title: "Rénovation Placo",
+      subtitle: "Réparation et rénovation",
+      content: "Réparation et rénovation de cloisons existantes. Remise en état, réparation de fissures et modernisation de vos espaces intérieurs.",
       image: "/prestation-5.png",
       gradientFrom: "#3498db",
       gradientTo: "#2980b9",
-      href: "/services/urgence-fibre"
+      href: "/services/renovation-placo"
     }
   ];
 
   const contactInfo = {
-    address: "Paris (75015)",
-    phone: "07 83 49 01 36",
-    email: "contact@rafcomm.fr",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Paris+75015&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    address: "Marseille, Provence-Alpes-Côte d'Azur",
+    phone: "06 59 76 49 95",
+    email: "amiltonvazmarques@gmail.com",
+    mapEmbedUrl: "https://maps.google.com/maps?q=Marseille+France&t=&z=13&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -124,11 +124,11 @@ export default function HomeClient() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de vos besoins en travaux fibre, débouchage de fourreaux, détection de blocages ou urgences fibre en Île-de-France"
+        subtitle="Parlons de vos besoins en travaux de plaquiste, cloisons, doublages, faux plafonds ou rénovation à Marseille et région PACA"
         contactInfo={contactInfo} 
       />
       {/* Utilisation de la variable d'environnement pour le Place ID */}
-      <GoogleReviewsBanner placeId={process.env.NEXT_PUBLIC_GOOGLE_PLACE_ID || "JuUub4TSV8uuF6tqj"} />
+      
       {/* Exit Intent Popup */}
       <AnimatePresence>
         {showExitIntent && (

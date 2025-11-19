@@ -2,12 +2,12 @@ import { Metadata } from 'next';
 import SecteurIndexClient from './SecteurIndexClient';
 
 export const metadata: Metadata = {
-  title: 'Nos secteurs d\'intervention - RAFCOM | Travaux fibre optique Île-de-France',
-  description: 'Découvrez tous nos secteurs d\'intervention en Île-de-France. Travaux fibre optique, débouchage fourreaux, détection blocages dans 22 secteurs autour de Paris.',
-  keywords: 'fibre optique Paris, secteurs intervention RAFCOM, travaux fibre Île-de-France, débouchage fourreaux Paris, urgence fibre optique',
+  title: 'Nos secteurs d\'intervention - MARQUES VAZ PLACO | Plaquiste Provence-Alpes-Côte d\'Azur',
+  description: 'Découvrez tous nos secteurs d\'intervention en PACA. Travaux de plaquiste, cloisons sèches, doublage, faux plafonds dans 28 secteurs autour de Marseille.',
+  keywords: 'plaquiste Marseille, secteurs intervention MARQUES VAZ PLACO, travaux placo PACA, cloisons sèches Marseille, plaquiste Bouches-du-Rhône',
   openGraph: {
-    title: 'Nos secteurs d\'intervention - RAFCOM',
-    description: 'Découvrez tous nos secteurs d\'intervention en Île-de-France. Travaux fibre optique, débouchage fourreaux, détection blocages dans 22 secteurs autour de Paris.',
+    title: 'Nos secteurs d\'intervention - MARQUES VAZ PLACO',
+    description: 'Découvrez tous nos secteurs d\'intervention en PACA. Travaux de plaquiste, cloisons sèches, doublage, faux plafonds dans 28 secteurs autour de Marseille.',
     type: 'website',
   },
 };

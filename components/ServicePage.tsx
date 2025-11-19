@@ -151,7 +151,7 @@ export default function ServicePage({
     "description": description,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "RAFCOM",
+      "name": "MARQUES VAZ PLACO",
       "telephone": contactInfo.phone,
       "email": contactInfo.email,
       "address": {

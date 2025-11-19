@@ -50,16 +50,22 @@ export default function MentionsLegalesClient() {
               </div>
               
               <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p><strong>Dénomination sociale :</strong> RAFCOM</p>
-                <p><strong>Forme juridique :</strong> SASU (Société par Actions Simplifiée Unipersonnelle)</p>
-                <p><strong>Directeur de la publication :</strong> Rafik Hamel</p>
-                <p><strong>Siège social :</strong> 200 rue de la Croix Nivert, 75015 Paris</p>
-                <p><strong>Téléphone :</strong> 07 83 49 01 36</p>
-                <p><strong>Email :</strong> <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcomm.fr</a></p>
-                <p><strong>SIRET :</strong> 991 943 010 00017</p>
-                <p><strong>SIREN :</strong> 991 943 010</p>
-                <p><strong>Activité :</strong> Travaux de fibre optique, débouchage de fourreaux télécommunications, détection de points de blocage, raccordements complexes et interventions d'urgence</p>
-                <p><strong>Zone d'intervention :</strong> Paris et Île-de-France</p>
+                <p><strong>Dénomination sociale :</strong> MARQUES VAZ PLACO</p>
+                <p><strong>Forme juridique :</strong> Entrepreneur individuel</p>
+                <p><strong>Directeur de la publication :</strong> Amilton Marques Vaz</p>
+                <p><strong>Nom :</strong> MARQUES VAZ</p>
+                <p><strong>Prénom :</strong> AMILTON</p>
+                <p><strong>Adresse :</strong> 9 RUE GARNIER, 13010 MARSEILLE</p>
+                <p><strong>Téléphone :</strong> 06 59 76 49 95</p>
+                <p><strong>Email :</strong> <a href="mailto:amiltonvazmarques@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors">amiltonvazmarques@gmail.com</a></p>
+                <p><strong>SIRET :</strong> 920 961 729 00018</p>
+                <p><strong>SIREN :</strong> 920 961 729</p>
+                <p><strong>Catégorie juridique :</strong> Entrepreneur individuel</p>
+                <p><strong>Activité Principale Exercée (APE) :</strong> 43.31Z - Travaux de plâtrerie</p>
+                <p><strong>Activité :</strong> Travaux de plaquiste, cloisons sèches, doublage et isolation, faux plafonds, finitions et bandes, rénovation placo</p>
+                <p><strong>Zone d'intervention :</strong> Marseille et région Provence-Alpes-Côte d'Azur</p>
+                <p><strong>Entreprise active depuis le :</strong> 22/10/2022</p>
+                <p><strong>Établissement actif depuis le :</strong> 22/10/2022</p>
               </div>
             </div>
 
@@ -67,8 +73,8 @@ export default function MentionsLegalesClient() {
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Directeur de publication</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
-                <p><strong>Directeur de publication :</strong> Rafik Hamel</p>
-                <p><strong>Contact :</strong> <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcomm.fr</a></p>
+                <p><strong>Directeur de publication :</strong> Amilton Marques Vaz</p>
+                <p><strong>Contact :</strong> <a href="mailto:amiltonvazmarques@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors">amiltonvazmarques@gmail.com</a></p>
               </div>
             </div>
 
@@ -95,9 +101,9 @@ export default function MentionsLegalesClient() {
                   sauf autorisation expresse du directeur de la publication.
                 </p>
                 <p>
-                  Les marques et logos figurant sur le site sont déposés par RAFCOM ou éventuellement par des partenaires. 
+                  Les marques et logos figurant sur le site sont déposés par MARQUES VAZ PLACO ou éventuellement par des partenaires. 
                   Toute reproduction totale ou partielle de ces marques ou de ces logos, effectuée à partir des éléments du site 
-                  sans l'autorisation expresse de RAFCOM est donc prohibée.
+                  sans l'autorisation expresse de MARQUES VAZ PLACO est donc prohibée.
                 </p>
               </div>
             </div>
@@ -107,18 +113,18 @@ export default function MentionsLegalesClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Protection des données personnelles</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  RAFCOM s'engage à respecter la réglementation en vigueur applicable au traitement des données personnelles, 
+                  MARQUES VAZ PLACO s'engage à respecter la réglementation en vigueur applicable au traitement des données personnelles, 
                   notamment la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés dans sa version 
                   actuelle et le Règlement Général sur la Protection des Données (RGPD).
                 </p>
                 <p>
-                  Les données personnelles collectées sur ce site sont destinées à RAFCOM et ne sont jamais transmises à des tiers 
+                  Les données personnelles collectées sur ce site sont destinées à MARQUES VAZ PLACO et ne sont jamais transmises à des tiers 
                   sans votre consentement préalable.
                 </p>
                 <p>
                   Conformément à la loi "Informatique et Libertés" et au RGPD, vous disposez d'un droit d'accès, de rectification, 
                   de suppression et de portabilité de vos données personnelles. Vous pouvez exercer ces droits en nous contactant à : 
-                  <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors"> contact@rafcomm.fr</a>
+                  <a href="mailto:amiltonvazmarques@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors"> amiltonvazmarques@gmail.com</a>
                 </p>
               </div>
             </div>
@@ -145,6 +151,27 @@ export default function MentionsLegalesClient() {
               </div>
             </div>
 
+            {/* Assurance Responsabilité Civile */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Assurance Responsabilité Civile</h2>
+              <div className="space-y-4 text-gray-600 leading-relaxed">
+                <p><strong>Assureur :</strong> QBE Europe SA</p>
+                <p><strong>Adresse :</strong> Tour QBE, 1 Promenade des Anglais, 06000 COURBEVOIE</p>
+                <p><strong>Numéro de contrat :</strong> CUIE Entreprise de Construction : 098576241493</p>
+                <p><strong>Période de validité :</strong> du 30/10/2023 au 31/10/2024</p>
+                <p><strong>Garanties :</strong></p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>Responsabilité civile professionnelle et générale</li>
+                  <li>Dommages aux biens confiés</li>
+                  <li>Garantie décennale pour les activités de construction</li>
+                </ul>
+                <p>
+                  <strong>Nature de la garantie :</strong> Responsabilité décennale de l'assuré à raison de sa participation 
+                  aux activités professionnelles ou missions d'études.
+                </p>
+              </div>
+            </div>
+
             {/* Responsabilité */}
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Responsabilité</h2>
@@ -155,12 +182,12 @@ export default function MentionsLegalesClient() {
                 </p>
                 <p>
                   Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email, 
-                  à l'adresse <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcomm.fr</a>, 
+                  à l'adresse <a href="mailto:amiltonvazmarques@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors">amiltonvazmarques@gmail.com</a>, 
                   en décrivant le problème de la manière la plus précise possible.
                 </p>
                 <p>
                   Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule responsabilité. 
-                  En conséquence, RAFCOM ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur 
+                  En conséquence, MARQUES VAZ PLACO ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur 
                   ou d'une quelconque perte de données consécutives au téléchargement.
                 </p>
               </div>
@@ -171,8 +198,8 @@ export default function MentionsLegalesClient() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Droit applicable et juridiction compétente</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Tout litige en relation avec l'utilisation du site www.rafcom.net est soumis au droit français. 
-                  Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.
+                  Tout litige en relation avec l'utilisation du site est soumis au droit français. 
+                  Il est fait attribution exclusive de juridiction aux tribunaux compétents de Marseille.
                 </p>
               </div>
             </div>
@@ -192,8 +219,8 @@ export default function MentionsLegalesClient() {
                 <p>
                   Pour toute question relative aux présentes mentions légales, vous pouvez nous contacter :
                 </p>
-                <p><strong>Email :</strong> <a href="mailto:contact@rafcomm.fr" className="text-gray-600 hover:text-gray-800 transition-colors">contact@rafcomm.fr</a></p>
-                <p><strong>Téléphone :</strong> <a href="tel:0783490136" className="text-gray-600 hover:text-gray-800 transition-colors">07 83 49 01 36</a></p>
+                <p><strong>Email :</strong> <a href="mailto:amiltonvazmarques@gmail.com" className="text-gray-600 hover:text-gray-800 transition-colors">amiltonvazmarques@gmail.com</a></p>
+                <p><strong>Téléphone :</strong> <a href="tel:0659764995" className="text-gray-600 hover:text-gray-800 transition-colors">06 59 76 49 95</a></p>
               </div>
             </div>
           </motion.div>

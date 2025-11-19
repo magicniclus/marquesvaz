@@ -152,7 +152,7 @@ export default function ProjectGallery({
       {/* Lightbox Modal */}
       {lightboxOpen && (
         <div
-          className="fixed inset-0 z-[100] bg-black flex items-center justify-center"
+          className="fixed inset-0 z-[100] bg-black"
           onClick={closeLightbox}
         >
             {/* Close Button */}
@@ -168,9 +168,9 @@ export default function ProjectGallery({
               {current} / {count}
             </div>
 
-            {/* Carousel Container */}
+            {/* Carousel Container - Centrage vertical absolu */}
             <div
-              className="relative w-full md:h-full flex items-center justify-center md:flex md:items-center md:justify-center"
+              className="absolute inset-0 flex items-center justify-center"
               onClick={(e) => e.stopPropagation()}
             >
               <Carousel 
@@ -184,16 +184,16 @@ export default function ProjectGallery({
                   startIndex: selectedImageIndex,
                 }}
               >
-                <CarouselContent className="-ml-1">
+                <CarouselContent className="-ml-1 h-screen flex items-center">
                   {galleryImages.map((image, index) => (
-                    <CarouselItem key={index} className="h-full flex items-center justify-center pl-0">
-                      <div className="relative w-full h-full flex items-center justify-center p-2 md:p-4">
+                    <CarouselItem key={index} className="h-screen flex items-center justify-center pl-0">
+                      <div className="relative w-full h-full flex items-center justify-center p-4">
                         <Image
                           src={image.src}
                           alt={image.alt}
                           width={1200}
                           height={800}
-                          className="object-contain max-w-full max-h-full rounded-lg"
+                          className="object-contain max-w-full max-h-[90vh] rounded-lg"
                           priority={index === current - 1}
                         />
                       </div>

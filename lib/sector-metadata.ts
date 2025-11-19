@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { seoConfig } from './seo-config';
 
 export function generateSectorMetadata(
   sectorName: string,
@@ -6,21 +7,43 @@ export function generateSectorMetadata(
   description: string,
   keywords: string[]
 ): Metadata {
+  const title = `${sectorName} ${location} - MARQUES VAZ PLACO | Devis Gratuit`;
+  const metaDescription = `${description} Devis gratuit et personnalisé pour vos travaux de plaquiste à ${location}. Contactez MARQUES VAZ PLACO.`;
+
   return {
-    title: `Travaux Fibre ${location} – RAFCOM | Devis Gratuit`,
-    description: description,
-    keywords: keywords.join(', '),
+    title,
+    description: metaDescription,
+    keywords: [...keywords, 'devis gratuit', 'MARQUES VAZ PLACO', location].join(', '),
+    authors: [{ name: 'MARQUES VAZ PLACO' }],
+    creator: 'MARQUES VAZ PLACO',
+    publisher: 'MARQUES VAZ PLACO',
+    formatDetection: {
+      email: false,
+      address: false,
+      telephone: false,
+    },
+    metadataBase: new URL(seoConfig.siteUrl),
     openGraph: {
-      title: `Travaux Fibre ${location} – RAFCOM`,
-      description: description,
-      type: 'website',
+      title,
+      description: metaDescription,
+      url: `${seoConfig.siteUrl}/secteur/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
+      siteName: seoConfig.siteName,
+      images: [
+        {
+          url: `${seoConfig.siteUrl}/og-image.jpg`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
       locale: 'fr_FR',
-      siteName: 'RAFCOM - Spécialiste Fibre Optique',
+      type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `Travaux Fibre ${location} – RAFCOM`,
-      description: description,
+      title,
+      description: metaDescription,
+      images: [`${seoConfig.siteUrl}/og-image.jpg`],
     },
     robots: {
       index: true,
@@ -34,7 +57,7 @@ export function generateSectorMetadata(
       },
     },
     alternates: {
-      canonical: `https://rafcom.net/secteur/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
+      canonical: `${seoConfig.siteUrl}/secteur/${location.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}`,
     },
   };
 }

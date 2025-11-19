@@ -129,14 +129,15 @@ export default function SectorPage({
   const sectorSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "RAFCOM",
+    "name": "MARQUES VAZ PLACO",
+    "legalName": "Marques Vaz Placo - Spécialiste plaquiste à Marseille",
     "description": description,
     "telephone": contactInfo.phone,
     "email": contactInfo.email,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": location,
-      "addressRegion": "Île-de-France",
+      "addressRegion": "Provence-Alpes-Côte d'Azur",
       "addressCountry": "FR"
     },
     "areaServed": [
@@ -149,8 +150,19 @@ export default function SectorPage({
         "name": area
       }))
     ],
-    "serviceType": "Travaux fibre optique",
-    "priceRange": "$$"
+    "serviceType": [
+      "Travaux de Plaquiste",
+      "Cloisons Sèches", 
+      "Doublage et Isolation",
+      "Faux Plafonds",
+      "Finitions et Bandes",
+      "Rénovation Placo"
+    ],
+    "priceRange": "€€",
+    "founder": {
+      "@type": "Person",
+      "name": "Amilton Vaz"
+    }
   };
 
   return (
@@ -169,7 +181,7 @@ export default function SectorPage({
         <div className="absolute inset-0 z-0">
           <Image
             src={heroImage}
-            alt={`Travaux fibre ${location}`}
+            alt={`Plaquiste ${location}`}
             fill
             className="object-cover"
             priority

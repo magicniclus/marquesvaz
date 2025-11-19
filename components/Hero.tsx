@@ -121,17 +121,24 @@ export default function Hero({
   return (
     <section className="relative min-h-screen md:min-h-[calc(100vh-80px)] md:h-[calc(100vh-81px)] flex items-center overflow-hidden md:py-0 py-40">
       {/* Background */}
-      <div 
-        className="absolute inset-0 z-0"
-        style={getBackgroundStyle()}
-      >
-        <Image
-          src="/bg.png"
-          alt="RAFCOM - Spécialiste Travaux Fibre Optique"
-          fill
-          className="object-cover"
-          priority
-        />
+      <div className="absolute inset-0 z-0">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/video.mp4" type="video/mp4" />
+          {/* Fallback image si la vidéo ne charge pas */}
+          <Image
+            src="/bg.png"
+            alt="MARQUES VAZ PLACO - Spécialiste Plaquiste Marseille"
+            fill
+            className="object-cover"
+            priority
+          />
+        </video>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
       </div>

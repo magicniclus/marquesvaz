@@ -48,7 +48,7 @@ export default async function Image() {
               lineHeight: '1.1',
             }}
           >
-            RAFCOM
+            MARQUES VAZ PLACO
           </h1>
           <p
             style={{
@@ -57,7 +57,7 @@ export default async function Image() {
               margin: '20px 0 0 0',
             }}
           >
-            Spécialiste Fibre Optique
+            Spécialiste Plaquiste
           </p>
           <div
             style={{
@@ -68,11 +68,11 @@ export default async function Image() {
               color: '#374151',
             }}
           >
-            <span>Travaux Fibre</span>
+            <span>Cloisons Sèches</span>
             <span>•</span>
-            <span>Débouchage Fourreaux</span>
+            <span>Doublage Isolation</span>
             <span>•</span>
-            <span>Urgences Fibre</span>
+            <span>Faux Plafonds</span>
           </div>
           <p
             style={{
@@ -81,7 +81,7 @@ export default async function Image() {
               margin: '30px 0 0 0',
             }}
           >
-            Île-de-France
+            Marseille - PACA
           </p>
         </div>
       </div>
