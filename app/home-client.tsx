@@ -2,7 +2,6 @@
 
 import { AnimatePresence } from 'framer-motion';
 import Hero from '@/components/Hero';
-import GoogleReviewsBanner from '@/components/GoogleReviewsBanner';
 import ServicesSection from '@/components/ServicesSection';
 import AboutSection from '@/components/AboutSection';
 import TeamSection from '@/components/TeamSection';

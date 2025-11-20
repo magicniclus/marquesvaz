@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "MARQUES VAZ PLACO - Spécialiste Plaquiste Marseille | Cloisons Sèches PACA",

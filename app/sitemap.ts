@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Services spécialisés plaquiste
-  const services = ['cloisons-seches', 'doublage-isolation', 'faux-plafonds', 'finitions-bandes', 'renovation-placo'];
+  // const services = ['cloisons-seches', 'doublage-isolation', 'faux-plafonds', 'finitions-bandes', 'renovation-placo'];
 
   const sitemapEntries: MetadataRoute.Sitemap = [
     // Page d'accueil

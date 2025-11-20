@@ -2,14 +2,13 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Check, Phone, Mail, MapPin, Star, ChevronRight, X } from 'lucide-react';
+import { Check, Phone, Mail, MapPin, Star, X } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { submitFormToFirebase, validateFormData, FormData } from '@/lib/firebase-service';
 import FormLoader from '@/components/FormLoader';
 import Breadcrumb from '@/components/Breadcrumb';
 import { useRouter } from 'next/navigation';
-import { Metadata } from 'next';
 
 interface ServicePageProps {
   // SEO et métadonnées
@@ -72,9 +71,9 @@ interface ServicePageProps {
 }
 
 export default function ServicePage({
-  title,
+  // title,
   description,
-  keywords,
+  // keywords,
   serviceName,
   heroImage,
   heroTitle,

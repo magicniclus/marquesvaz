@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Check, Phone, Mail, MapPin, Star, ChevronRight, Building2, Users, Clock, Shield } from 'lucide-react';
+import { Check, Phone, Mail, MapPin, Star, Building2, Users, Clock, Shield } from 'lucide-react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { submitFormToFirebase, validateFormData, FormData } from '@/lib/firebase-service';
@@ -57,10 +57,10 @@ interface SectorPageProps {
 }
 
 export default function SectorPage({
-  title,
+  // title,
   description,
-  keywords,
-  sectorName,
+  // keywords,
+  // sectorName,
   heroImage,
   heroTitle,
   heroSubtitle,

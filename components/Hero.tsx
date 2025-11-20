@@ -100,23 +100,20 @@ export default function Hero({
   };
 
   // Background styles
-  const getBackgroundStyle = () => {
-    if (heroBackgroundVideo) {
-      return {};
-    }
-    if (heroBackgroundImage) {
-      return {
-        backgroundImage: `url(${heroBackgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      };
-    }
-    // Default gradient
-    return {
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
-    };
-  };
+  // const getBackgroundStyle = () => {
+  //   if (heroBackgroundVideo) {
+  //     return {};
+  //   }
+  //   if (heroBackgroundImage) {
+  //     return {
+  //       backgroundImage: `url(${heroBackgroundImage})`,
+  //       backgroundSize: 'cover',
+  //       backgroundPosition: 'center',
+  //       backgroundRepeat: 'no-repeat',
+  //     };
+  //   }
+  //   return {};
+  // };
 
   return (
     <section className="relative min-h-screen md:min-h-[calc(100vh-80px)] md:h-[calc(100vh-81px)] flex items-center overflow-hidden md:py-0 py-40">

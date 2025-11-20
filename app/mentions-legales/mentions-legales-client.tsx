@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { Building, Mail } from 'lucide-react';
-import { config } from '@/lib/config';
 
 export default function MentionsLegalesClient() {
   return (
