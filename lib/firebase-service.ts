@@ -53,7 +53,7 @@ export const submitFormToFirebase = async (formData: FormData): Promise<string> 
         // Silently fail - email is optional, form submission is the priority
         console.warn('Email notification service unavailable - form data saved successfully');
       }
-    } catch (emailError) {
+    } catch {
       // Silently fail - email is optional, form submission is the priority
       console.warn('Email notification service unavailable - form data saved successfully');
       // Don't throw error - form submission should still succeed even if email fails

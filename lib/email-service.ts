@@ -12,7 +12,7 @@ if (!apiKey) {
 }
 sgMail.setApiKey(apiKey || '');
 
-export interface EmailData extends FormData {
+export type EmailData = FormData & {
   dateCreation?: string;
 }
 
