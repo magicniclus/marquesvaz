@@ -17,12 +17,25 @@ export const trackEvent = (eventName: string, parameters?: Record<string, unknow
   }
 };
 
-// Événements spécifiques pour Belrhali
+// Événement de conversion Google Ads
+export const trackGoogleAdsConversion = () => {
+  if (typeof window !== 'undefined' && window.gtag) {
+    window.gtag('event', 'conversion', {
+      'send_to': 'AW-17729745211/IA-kCK2GyMUbELvimYZC',
+      'value': 30.0,
+      'currency': 'EUR'
+    });
+  }
+};
+
+// Événements spécifiques pour MARQUES VAZ PLACO
 export const trackContactForm = () => {
   trackEvent('contact_form_submit', {
     event_category: 'engagement',
     event_label: 'contact_form',
   });
+  // Déclencher aussi la conversion Google Ads
+  trackGoogleAdsConversion();
 };
 
 export const trackPhoneClick = () => {

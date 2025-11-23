@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { X, Calendar, User, Phone, Mail, MessageSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { submitFormToFirebase, FormData } from '@/lib/firebase-service';
+import { trackContactForm } from '@/lib/analytics';
 import FormLoader from '@/components/FormLoader';
 
 interface ExitIntentPopupProps {
@@ -55,6 +56,9 @@ export default function ExitIntentPopup({ onClose }: ExitIntentPopupProps) {
 
       const docId = await submitFormToFirebase(firebaseFormData);
       console.log('Popup form submitted successfully:', docId);
+      
+      // Track conversion Google Ads
+      trackContactForm();
       
       // Show success stage
       setLoaderStage('success');

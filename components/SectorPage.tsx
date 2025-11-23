@@ -6,6 +6,7 @@ import { Check, Phone, Mail, MapPin, Star, Building2, Users, Clock, Shield } fro
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { submitFormToFirebase, validateFormData, FormData } from '@/lib/firebase-service';
+import { trackContactForm } from '@/lib/analytics';
 import FormLoader from '@/components/FormLoader';
 import Breadcrumb from '@/components/Breadcrumb';
 import { useRouter } from 'next/navigation';
@@ -109,6 +110,9 @@ export default function SectorPage({
     try {
       const docId = await submitFormToFirebase(formData);
       console.log('Form submitted successfully:', docId);
+      
+      // Track conversion Google Ads
+      trackContactForm();
       
       setLoaderStage('success');
       await new Promise(resolve => setTimeout(resolve, 1000));

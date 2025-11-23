@@ -9,6 +9,7 @@ import Image from 'next/image';
 
 import { HeroConfig } from '@/lib/config';
 import { submitFormToFirebase, validateFormData, FormData } from '@/lib/firebase-service';
+import { trackContactForm } from '@/lib/analytics';
 import FormLoader from '@/components/FormLoader';
 
 interface HeroProps {
@@ -79,6 +80,9 @@ export default function Hero({
     try {
       const docId = await submitFormToFirebase(formData);
       console.log('Form submitted successfully:', docId);
+      
+      // Track conversion Google Ads
+      trackContactForm();
       
       // Show success stage
       setLoaderStage('success');

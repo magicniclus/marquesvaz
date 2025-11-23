@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Clock, Send, User, MessageSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { trackContactForm } from '@/lib/analytics';
 
 export default function ContactClient() {
   const [formData, setFormData] = useState({
@@ -30,6 +31,9 @@ export default function ContactClient() {
     
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 2000));
+    
+    // Track conversion Google Ads
+    trackContactForm();
     
     // Reset form
     setFormData({
