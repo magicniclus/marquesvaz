@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
@@ -66,16 +67,16 @@ export default function RootLayout({
         <link rel="icon" href="/icon.png" sizes="any" />
         <link rel="shortcut icon" href="/favicon.png" />
         
-        {/* Google tag (gtag.js) - New */}
-        {/* <Script src="https://www.googletagmanager.com/gtag/js?id=AW-11128083735" strategy="afterInteractive" />
-        <Script id="google-analytics-new" strategy="afterInteractive">
+        {/* Google tag (gtag.js) */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-17729745211" strategy="afterInteractive" />
+        <Script id="google-ads" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-11128083735');
+            gtag('config', 'AW-17729745211');
           `}
-        </Script> */}
+        </Script>
 
       </head>
       <body className="antialiased prevent-horizontal-scroll" suppressHydrationWarning>

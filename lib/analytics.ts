@@ -1,12 +1,6 @@
-// Configuration pour Google Analytics et autres outils de tracking
+// Configuration pour les outils de tracking
 
 export const analyticsConfig = {
-  googleAnalytics: {
-    measurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX',
-  },
-  googleTagManager: {
-    containerId: process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || 'GTM-XXXXXXX',
-  },
   facebookPixel: {
     pixelId: process.env.NEXT_PUBLIC_FB_PIXEL_ID || '',
   },
