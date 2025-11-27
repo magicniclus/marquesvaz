@@ -32,7 +32,7 @@ export const seoConfig: SEOConfig = {
     "isolation thermique Marseille"
   ],
   author: "MARQUES VAZ PLACO",
-  siteUrl: "https://marquesvazplaco.fr",
+  siteUrl: "https://marques-vaz-placo.fr",
   siteName: "MARQUES VAZ PLACO - Spécialiste Plaquiste Marseille",
   locale: "fr_FR",
   type: "website",

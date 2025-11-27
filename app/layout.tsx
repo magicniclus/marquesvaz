@@ -16,14 +16,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://rafcom.net"),
+  metadataBase: new URL("https://marques-vaz-placo.fr"),
   alternates: {
-    canonical: "https://rafcom.net",
+    canonical: "https://marques-vaz-placo.fr",
   },
   openGraph: {
     title: "MARQUES VAZ PLACO - Spécialiste Plaquiste Marseille",
     description: "MARQUES VAZ PLACO, spécialiste plaquiste : cloisons sèches, doublage isolation, faux plafonds, finitions et rénovation placo en région PACA.",
-    url: "https://marquesvazplaco.fr",
+    url: "https://marques-vaz-placo.fr",
     siteName: "MARQUES VAZ PLACO - Spécialiste Plaquiste",
     images: [
       {
