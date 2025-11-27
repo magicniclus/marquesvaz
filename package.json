@@ -6,7 +6,11 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate-sitemap": "node scripts/validate-sitemap.js",
+    "post-build-check": "node scripts/post-build-check.js",
+    "build:full": "npm run build && npm run post-build-check",
+    "build:production": "npm run build && npm run post-build-check && npm run validate-sitemap"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
